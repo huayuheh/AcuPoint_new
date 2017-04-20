@@ -5,14 +5,15 @@
 
   <ion-content class="padding">
     <h2>Pain Rate</h2>
+    <p>Pain level: {{data1.volume}}</p>
       <img class="face" src="img/face_4.jpg">
 
     <div class="baseline_bar">
       <img src="img/range_bg.jpg">
-      <input class="range_line" type="range" step="1" min="0" max="8" value="4">
+      <input class="range_line" type="range" name="volume" ng-model="data1.volume" step="1" min="0" max="8" value="4">
     </div>
 
-    <ion-buttons class="button button-block button-orange" >Find Treatment</ion-buttons>
+    <a class="button button-block button-orange" href="#/treatmentlist" >Find Treatment</a>
 
 
 

@@ -48,6 +48,13 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       controller: 'BaselineCtrl'
     })
 
+    .state('treatmentlist', {
+      url: '/treatmentlist',
+      templateUrl: 'templates/treatmentlist.html',
+      controller: 'TreatmentlistCtrl'
+    })
+
+
   // setup an abstract state for the tabs directive
     .state('tab', {
     url: '/tab',

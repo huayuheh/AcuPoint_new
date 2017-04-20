@@ -60,9 +60,22 @@ angular.module('starter.controllers', [])
   };
 
 })
-  .controller('BaselineCtrl', function($scope) {})
+  .controller('BaselineCtrl', function($scope) {
+
+    $scope.$watch('data2.volume', function(val) {
+      console.log('data2 changed: ', val);
+
+    });
 
 
+
+  })
+
+  .controller('TreatmentlistCtrl', function($scope) {
+
+
+
+  })
 
 .controller('RecordCtrl', function($scope) {})
 .controller('ProfileCtrl', function($scope) {})

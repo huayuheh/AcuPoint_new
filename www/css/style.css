@@ -12,6 +12,13 @@ h2{
   color:#F9B763;
   text-align: center;
 }
+h3{
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 8px;
+  color:#F9B763;
+  text-align: center;
+}
 
 .bar.bar-stable{
   border-color: white;
@@ -44,7 +51,9 @@ h2{
   font-size: 17px;
   letter-spacing: 0.5px;
 }
-
+.row{
+  text-align: center;
+}
 
 
 /*tab */
@@ -120,19 +129,78 @@ h2{
 
 .baseline_bar{
   position: relative;
-  width: 320px;
+  width: 100%;
   margin-bottom: 32px;
+}
+.baseline_bar img{
+  width: 100%;
+  padding: 0 8px;
 }
 
 .baseline_bar input {
-  display:inline-block;
+
+ margin-top: 16px;
   width:100%;
 
 }
 .range_line{
   position: absolute;
   left: 0;
-  top:-7px;
+  top:0px;
+}
+
+/*Treatment list*/
+.card{
+  border-radius: 24px;
+  border: 2px solid #949AB0;
+}
+
+
+.treatment_list_box{
+  width: 100%;
+  margin: 16px 0 16px;
+  border: 2px solid #949AB0;
+  border-radius: 16px;
+  padding: 0 16px;
+  text-align: center;
+}
+.treatmente_img{
+  position: relative;
+  border-top: 1px solid  #949AB0;
+  padding: 16px ;
+  text-align: center;
+}
+.treatmente_dot{
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  background-color: #F3807B;
+  position: absolute;
+  box-shadow: 0 2px 4px #949AB0;
+}
+#GV24{
+  top: 37%;
+  left: 48%;
+}
+
+.treatment_list_info{
+  border-top: 1px solid  #949AB0;
+  padding: 16px 0;
+  width: 100%;
+  display: table;
+
+}
+.treatment_list_info .left{
+  width: 66.7%;
+  float: left;
+}
+.treatment_list_info .right{
+  width: 33.3%;
+  float: right;
+}
+.treatment_list_button{
+  border-top: 1px solid  #949AB0;
+  padding: 16px 0;
 }
 
 /*Customized icons*/
@@ -183,4 +251,95 @@ h2{
 
 .ion-ios-profile-strong:before {
   content: url("../img/icon/profile.png")!important;
+}
+
+
+
+
+/*range*/
+input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 14px 0;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 0px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  background: rgba(0,0,0,0);
+  border-radius: 0px;
+  border: 0px solid #f3807b;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  border: 0.9px solid rgba(249, 183, 99, 0.5);
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  background: #f9b763;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -14px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: rgba(0,0,0,0);
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 0px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  background: rgba(0,0,0,0);
+  border-radius: 0px;
+  border: 0px solid #f3807b;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  border: 0.9px solid rgba(249, 183, 99, 0.5);
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  background: #f9b763;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: rgba(0,0,0,0);
+  border: 0px solid #f3807b;
+  border-radius: 0px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-fill-upper {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  background: rgba(0,0,0,0);
+  border: 0px solid #f3807b;
+  border-radius: 0px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 0px 1px rgba(13, 13, 13, 0);
+  border: 0.9px solid rgba(249, 183, 99, 0.5);
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  background: #f9b763;
+  cursor: pointer;
+  height: 4px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgba(0,0,0,0);
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: rgba(0,0,0,0);
 }
