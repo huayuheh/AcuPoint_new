@@ -54,6 +54,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       controller: 'TreatmentlistCtrl'
     })
 
+    .state('camera', {
+      url: '/camera',
+      templateUrl: 'templates/camera.html',
+      controller: 'CameraCtrl'
+    })
 
   // setup an abstract state for the tabs directive
     .state('tab', {

@@ -1,15 +1,15 @@
 <ion-view view-title="Baseline">
   <ion-nav-buttons side="left">
-    <a class="button button-icon icon ion-chevron-left" href="#/tab/home" ></a>
+    <a class="button button-icon icon ion-chevron-left" href="#/tab/treat" ></a>
   </ion-nav-buttons>
 
   <ion-content class="padding">
-    <h2>Pain Rate</h2>
+    <h2>Rate your pain</h2>
     <p>Pain level: {{data1.volume}}</p>
-      <img class="face" src="img/face_4.jpg">
+      <img class="face" src="img/painlevel_4.svg">
 
     <div class="baseline_bar">
-      <img src="img/range_bg.jpg">
+      <img src="img/range_bg.svg">
       <input class="range_line" type="range" name="volume" ng-model="data1.volume" step="1" min="0" max="8" value="4">
     </div>
 
@@ -18,11 +18,7 @@
 
 
 
-      <div class=" range range-positive">
 
-        <input type="range" name="volume" min="0" max="8" value="4">
-
-      </div>
 
   </ion-content>
 </ion-view>

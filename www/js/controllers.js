@@ -30,22 +30,22 @@ angular.module('starter.controllers', [])
 .controller('TreatCtrl', function($scope, $ionicActionSheet, $timeout, $window) {
 
   $scope.showTreatment = function() {
-    document.getElementById('body-img').src = "img/body-head.jpg";
+    document.getElementById('body-img').src = "img/body_head.svg";
 
     // Show the action sheet
     var hideSheet = $ionicActionSheet.show({
       buttons: [
-        { text: 'cold' },
+        { text: 'Cold' },
         { text: 'Dry eyes' },
         { text: 'Headache' },
         { text: 'Toothache' }
       ],
       // destructiveText: 'Delete',
-      titleText: 'Pain Around Head Area',
+      titleText: '<i class="icon ion-faceicon"></i> Pain Around Head Area',
       cancelText: 'Cancel',
       cancel: function() {
         // add cancel code..
-        document.getElementById('body-img').src = "img/body-blue.jpg";
+        document.getElementById('body-img').src = "img/body_whole.svg";
       },
       buttonClicked: function(index) {
         $window.location.assign('#/baseline');
@@ -61,22 +61,16 @@ angular.module('starter.controllers', [])
 
 })
   .controller('BaselineCtrl', function($scope) {
-
-    $scope.$watch('data2.volume', function(val) {
-      console.log('data2 changed: ', val);
-
+    $scope.$watch('data1.volume', function(val) {
+      console.log('data1.volume: '+ val);
     });
-
-
-
   })
 
   .controller('TreatmentlistCtrl', function($scope) {
-
-
+  })
+  .controller('CameraCtrl', function($scope) {
 
   })
-
 .controller('RecordCtrl', function($scope) {})
 .controller('ProfileCtrl', function($scope) {})
 .controller('DeviceCtrl', function($scope) {})
