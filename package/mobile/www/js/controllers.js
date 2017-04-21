@@ -1,78 +1,107 @@
+
+
+
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {
-  var showTime = new Date();
-  var photoTimeSave = showTime;
-  var severIPAddress = "http://10.0.1.34:8080";
-  $scope.captureNote = "No motion";
-  $scope.captureTime = "";
-  $scope.captureImage = severIPAddress + "/assets/img/logo-color-s.jpg";
+  .controller('SignInCtrl', function($scope, $state) {
 
-  socket.on('event:photo', function( photoTime ) {
-    photoTimeSave = photoTime;
-    setTimeout(function(){
-      $scope.$apply( function() {
-        $scope.captureNote = "Detacted a motion";
-        showTime = new Date(photoTime);
-        $scope.captureTime = showTime;
+    $scope.signIn = function(user) {
+      console.log('Sign-In', user);
+      $state.go('tab.home');
+    };
 
-        $scope.captureImage = severIPAddress + "/assets/img/" + photoTime + ".jpg";
-
-      });
-    },500);
-  });
-  $scope.buzzer = function(){
-    console.log("Buzzer");
-    socket.emit('event:buzzer', true);
-  };
-
-  $scope.identify = function(){
-    console.log("save it" + photoTimeSave );
-    $scope.chats = [];
-    $scope.chats.unshift(
-      {id: 4,
-        name: 'checkadee',
-        lastText: '2016-12-08 08:13:42',
-        face: '/assets/img/' + photoTimeSave + '.jpg'});
-
-  };
-})
-.controller('PhotoCtrl', function($scope) {
-    var showTime = new Date();
-    var severIPAddress = "http://10.0.1.34:8080";
+  })
 
 
-    socket.on('event:takephoto', function( photoTime ) {
-      console.log("receive data "+ photoTime);
-      setTimeout(function(){
-        $scope.$apply( function() {
-          showTime = new Date(photoTime);
-          $scope.captureTime = showTime;
+  .controller('HomeCtrl', function($scope) {})
 
-          $scope.captureImage = severIPAddress + "/assets/img/photo/" + photoTime + ".jpg";
+  .controller('DeviceCtrl', function($scope) {})
+// .controller('HomeCtrl',  ['$rootScope', '$scope', '$window',
+//   function($rootScope, $scope, $window) {
+//
+//     $scope.login = function() {
+//       $window.location.assign('#/device');
+//     };
+//   }])
 
-        });
-      },500);
+
+.controller('ListCtrl', function($scope) {})
+
+.controller('TreatCtrl', function($scope, $ionicActionSheet, $timeout, $window) {
+
+  $scope.showTreatment = function() {
+    document.getElementById('body-img').src = "img/body_head.svg";
+
+    // Show the action sheet
+    var hideSheet = $ionicActionSheet.show({
+      buttons: [
+        { text: 'Cold' },
+        { text: 'Dry eyes' },
+        { text: 'Headache' },
+        { text: 'Toothache' }
+      ],
+      // destructiveText: 'Delete',
+      titleText: '<i class="icon ion-faceicon"></i> Pain Around Head Area',
+      cancelText: 'Cancel',
+      cancel: function() {
+        // add cancel code..
+        document.getElementById('body-img').src = "img/body_whole.svg";
+      },
+      buttonClicked: function(index) {
+        $window.location.assign('#/baseline');
+      }
     });
 
-    $scope.video = function(){
-      console.log("video");
-      socket.emit('event:video', true);
-    };
-})
-.controller('ChatsCtrl', function($scope, Chats) {
-  console.log(localStorage.getItem("time"));
-  $scope.chats = Chats.all();
-  $scope.reverse = function(chat) {
-    Chats.reverse(chat);
+    // For example's sake, hide the sheet after two seconds
+    // $timeout(function() {
+    //   hideSheet();
+    // }, 2000);
+
   };
 
-
-
-
 })
+  .controller('BaselineCtrl', function($scope) {
+    $scope.$watch('data1.volume', function(val) {
+      console.log('data1.volume: '+ val);
+    });
+  })
+
+  .controller('TreatmentlistCtrl', function($scope) {
+  })
+
+  .controller('TimerCtrl', function($scope) {
+  })
+
+  .controller('CameraCtrl', function($scope) {
+
+  })
+.controller('RecordCtrl', function($scope) {})
+.controller('ProfileCtrl', function($scope) {})
+.controller('DeviceCtrl', function($scope) {})
 
 
+
+
+
+
+
+
+.controller('DashCtrl', function($scope) {})
+
+.controller('ChatsCtrl', function($scope, Chats) {
+  // With the new view caching in Ionic, Controllers are only called
+  // when they are recreated or on app start, instead of every page change.
+  // To listen for when this page is active (for example, to refresh data),
+  // listen for the $ionicView.enter event:
+  //
+  //$scope.$on('$ionicView.enter', function(e) {
+  //});
+
+  $scope.chats = Chats.all();
+  $scope.remove = function(chat) {
+    Chats.remove(chat);
+  };
+})
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
@@ -80,12 +109,6 @@ angular.module('starter.controllers', [])
 
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {
-    lightcontroller: false
+    enableFriends: true
   };
-  $scope.turnLight = function ( ) {
-
-      socket.emit('event:light', true);
-
-  }
 });
-

@@ -1,780 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9b2cbed-3075-45ca-919b-95559965da64" name="New changelist" comment="New changelist">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/images/birfeeder-function.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/images/birfeeder-logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/images/birfeeder-prototype.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/images/birfeeder-system1.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/images/birfeeder-system2.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/american_goldfinch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/black-crested_titmouse.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/cassins_finch.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/downy_woodpecker.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/logo-color.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/v8dazguT42qW7B0eEuHH_logo-color.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-300/Open-Sans-300.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-300/Open-Sans-300.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-300/Open-Sans-300.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-300italic/Open-Sans-300italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-300italic/Open-Sans-300italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-300italic/Open-Sans-300italic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-600/Open-Sans-600.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-600/Open-Sans-600.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-600/Open-Sans-600.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-600italic/Open-Sans-600italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-600italic/Open-Sans-600italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-600italic/Open-Sans-600italic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-700/Open-Sans-700.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-700/Open-Sans-700.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-700/Open-Sans-700.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-700italic/Open-Sans-700italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-700italic/Open-Sans-700italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-700italic/Open-Sans-700italic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-800/Open-Sans-800.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-800/Open-Sans-800.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-800/Open-Sans-800.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-800italic/Open-Sans-800italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-800italic/Open-Sans-800italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-800italic/Open-Sans-800italic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-italic/Open-Sans-italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-italic/Open-Sans-italic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-italic/Open-Sans-italic.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-regular/Open-Sans-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-regular/Open-Sans-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/fonts/Open-Sans-regular/Open-Sans-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/public/img/1478898572850.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/public/img/logo-color-s1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/public/img/logo_icon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi.node" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/addon.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/devlib/devlib.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/devlib/ds1302.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/devlib/gertboard.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/devlib/lcd.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/devlib/lcd128x64.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/devlib/maxdetect.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/devlib/piFace.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/devlib/piGlow.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/devlib/piNes.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/devlib/tcs34725.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/dac7678.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/drcSerial.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/extensions.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/max31855.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/max5322.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/mcp23008.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/mcp23016.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/mcp23017.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/mcp23s08.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/mcp23s17.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/mcp3002.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/mcp3004.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/mcp3422.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/mcp4802.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/pca9685.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/pcf8574.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/pcf8591.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/sn3218.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/extensions/sr595.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/softPwm.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/softServo.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/softTone.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/wiringPi.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/wiringPiI2C.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/wiringPiISR.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/wiringPiSPI.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/wiringSerial.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/wiringShift.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/obj.target/wiringPi/src/wpi.o" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/wiringPi.node" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/stateDirectives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/stateFilters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/templateFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/urlRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/viewDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/src/viewScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/angular-ui/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/angular/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/angular/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/angular/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/angular/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/.github/ISSUE_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/.github/PULL_REQUEST_TEMPLATE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/dist/socket.io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/dist/socket.io.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/dist/socket.io.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/dist/socket.io.slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/dist/socket.io.slim.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/dist/socket.io.slim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/lib/manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/lib/on.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/lib/socket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/lib/url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/support/noop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/support/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/support/webpack.config.slim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/test/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/test/connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/test/socket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/test/support/env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/test/support/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/test/url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionic/www/lib/socket.io-client/zuul.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/.env" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/.idea/midterm.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/hooks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/hooks/after_prepare/010_add_platform_class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/scss/ionic.app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/js/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/js/routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/css/ionic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/css/ionic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/fonts/opensans/css/fonts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/angular-ui/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/angular/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/angular/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/angular/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/angular/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/angular/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/angular/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/ionic-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/ionic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/js/ionic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_items.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_platform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_refresher.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_slides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_spinner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_toggle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/ionic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/ionic/version.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/lib/manager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/lib/on.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/lib/socket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/lib/url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/socket.io.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/support/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/test/.eslintrc.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/test/connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/test/socket.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/test/support/env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/test/support/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/test/url.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/lib/socket.io-client/zuul.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/service-worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/chat-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/chickadee.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/live.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/peeper.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/report.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/setting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-chats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-dash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-photo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tabsController.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/whoIsComing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/config/env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/config/hapi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/config/motion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/config/sockets.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/public/css/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/public/js/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/routes/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/server/views/index.ejs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/testing_sensor/buzzer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/testing_sensor/buzzer1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/testing_sensor/cameranpm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/testing_sensor/cameranpmmotion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/testing_sensor/camerawithmotion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/testing_sensor/led.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/testing_sensor/motion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/testing_sensor/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/led.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/led_button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/one-pattern.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/reaction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/rgb_led.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/turn-off.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/button-led-bak/turn-on.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/digital_ForwardBackward.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/digital_ForwardBackward_pwm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/.gitmodules" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/DOCUMENTATION.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/binding.gyp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi.node.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/addon.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/devlib/devlib.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/devlib/ds1302.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/devlib/gertboard.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/devlib/lcd.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/devlib/lcd128x64.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/devlib/maxdetect.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/devlib/piFace.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/devlib/piGlow.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/devlib/piNes.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/devlib/tcs34725.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/dac7678.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/drcSerial.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/extensions.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/max31855.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/max5322.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/mcp23008.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/mcp23016.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/mcp23017.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/mcp23s08.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/mcp23s17.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/mcp3002.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/mcp3004.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/mcp3422.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/mcp4802.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/pca9685.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/pcf8574.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/pcf8591.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/sn3218.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/extensions/sr595.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/softPwm.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/softServo.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/softTone.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/wiringPi.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/wiringPiI2C.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/wiringPiISR.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/wiringPiSPI.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/wiringSerial.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/wiringShift.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/obj.target/wiringPi/src/wpi.o.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/Release/.deps/Release/wiringPi.node.d" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/binding.Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/config.gypi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/build/wiringPi.target.mk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/examples/blink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/examples/pwm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/install.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/install.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/lib/exports.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/patchs/devLib_Makefile.patch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/patchs/gpio_Makefile.patch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/addon.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/addon.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/devlib.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/devlib.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/ds1302.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/ds1302.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/gertboard.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/gertboard.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/lcd.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/lcd.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/lcd128x64.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/lcd128x64.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/maxdetect.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/maxdetect.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/piFace.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/piFace.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/piGlow.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/piGlow.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/piNes.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/piNes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/tcs34725.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/devlib/tcs34725.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/dac7678.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/dac7678.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/drcSerial.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/drcSerial.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/extensions.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/extensions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/max31855.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/max31855.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/max5322.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/max5322.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp23008.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp23008.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp23016.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp23016.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp23017.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp23017.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp23s08.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp23s08.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp23s17.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp23s17.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp3002.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp3002.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp3004.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp3004.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp3422.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp3422.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp4802.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/mcp4802.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/pca9685.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/pca9685.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/pcf8574.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/pcf8574.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/pcf8591.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/pcf8591.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/sn3218.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/sn3218.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/sr595.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/extensions/sr595.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/softPwm.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/softPwm.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/softServo.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/softServo.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/softTone.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/softTone.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringPi.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringPi.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringPiI2C.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringPiI2C.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringPiISR.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringPiISR.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringPiSPI.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringPiSPI.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringSerial.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringSerial.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringShift.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wiringShift.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wpi.cc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/node_modules/wiring-pi/src/wpi.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/node_modules/stepper-wiringpi/src/stepper-wiringpi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/test1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/test2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/test3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/test4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/test5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/motor/test6.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/rgb/rgb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/component-inherit/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/component-inherit/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/component-inherit/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/component-inherit/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/component-inherit/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/component-inherit/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/component-inherit/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/component-inherit/test/inherit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/ev3-js-device/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/ev3-js-device/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/ev3-js-device/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/ev3-js-device/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/ev3-js-device/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/ev3-js-devices/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/ev3-js-devices/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/ev3-js-devices/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/ev3-js-devices/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/node_modules/ev3-js-devices/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/ev3-js-touch-sensor/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/component-inherit/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/component-inherit/History.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/component-inherit/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/component-inherit/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/component-inherit/component.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/component-inherit/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/component-inherit/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/component-inherit/test/inherit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-device/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-device/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-device/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-device/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-device/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-array/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-array/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-array/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-array/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-array/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-array/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-array/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-obj/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-obj/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-obj/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-obj/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-obj/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-obj/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/foreach-obj/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-array/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-array/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-array/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-array/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-array/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-array/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-array/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/node_modules/@f/is-function/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/node_modules/@f/is-function/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/node_modules/@f/is-function/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/node_modules/@f/is-function/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/node_modules/@f/is-function/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/node_modules/@f/is-function/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/node_modules/@f/is-function/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/node_modules/@f/is-object/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/node_modules/@f/foreach/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/node_modules/@f/defaults/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/node_modules/ev3-js-devices/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/node_modules/touch-sensor/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sensor/touch/touch.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-hdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-ldpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-mdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/android/icon/drawable-xxxhdpi-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-40@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-50@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-60@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-72@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-76@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon-small@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/ios/icon/icon@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/home-outline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/home-outline@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/home@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/list-outline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/list-outline@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/list@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/pen-blue.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/pen-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/pen-red.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/profile-outline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/profile-outline@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/profile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/profile@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/record-outline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/record-outline@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/record.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/record@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/treat-outline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/treat-outline@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/treat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/icon/treat@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/ionic/.bowerrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/ionic/.editorconfig" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/ionic/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.io-config.json" afterPath="$PROJECT_DIR$/ionic/.io-config.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/ionic/bower.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/ionic/config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/ionic/gulpfile.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hooks/README.md" afterPath="$PROJECT_DIR$/ionic/hooks/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" afterPath="$PROJECT_DIR$/ionic/hooks/after_prepare/010_add_platform_class.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ionic.config.json" afterPath="$PROJECT_DIR$/ionic/ionic.config.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/ionic/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-hdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-land-hdpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-ldpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-land-ldpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-mdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-land-mdpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-land-xhdpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-land-xxhdpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-land-xxxhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-hdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-port-hdpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-ldpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-port-ldpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-mdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-port-mdpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-port-xhdpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-port-xxhdpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/android/splash/drawable-port-xxxhdpi-screen.png" afterPath="$PROJECT_DIR$/ionic/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/icon.png" afterPath="$PROJECT_DIR$/ionic/resources/icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/ionic/resources/ios/splash/Default-568h@2x~iphone.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-667h.png" afterPath="$PROJECT_DIR$/ionic/resources/ios/splash/Default-667h.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-736h.png" afterPath="$PROJECT_DIR$/ionic/resources/ios/splash/Default-736h.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape-736h.png" afterPath="$PROJECT_DIR$/ionic/resources/ios/splash/Default-Landscape-736h.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/ionic/resources/ios/splash/Default-Landscape@2x~ipad.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Landscape~ipad.png" afterPath="$PROJECT_DIR$/ionic/resources/ios/splash/Default-Landscape~ipad.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait@2x~ipad.png" afterPath="$PROJECT_DIR$/ionic/resources/ios/splash/Default-Portrait@2x~ipad.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default-Portrait~ipad.png" afterPath="$PROJECT_DIR$/ionic/resources/ios/splash/Default-Portrait~ipad.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default@2x~iphone.png" afterPath="$PROJECT_DIR$/ionic/resources/ios/splash/Default@2x~iphone.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/ios/splash/Default~iphone.png" afterPath="$PROJECT_DIR$/ionic/resources/ios/splash/Default~iphone.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/splash.png" afterPath="$PROJECT_DIR$/ionic/resources/splash.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scss/ionic.app.scss" afterPath="$PROJECT_DIR$/ionic/scss/ionic.app.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/ionic/www/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/Group 2.png" afterPath="$PROJECT_DIR$/ionic/www/img/Group 2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/body-blue.jpg" afterPath="$PROJECT_DIR$/ionic/www/img/body-blue.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/body-head.jpg" afterPath="$PROJECT_DIR$/ionic/www/img/body-head.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/body-orange.jpg" afterPath="$PROJECT_DIR$/ionic/www/img/body-orange.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/body_face.jpg" afterPath="$PROJECT_DIR$/ionic/www/img/body_face.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/body_head.svg" afterPath="$PROJECT_DIR$/ionic/www/img/body_head.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/body_whole.svg" afterPath="$PROJECT_DIR$/ionic/www/img/body_whole.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/camera_bg.jpg" afterPath="$PROJECT_DIR$/ionic/www/img/camera_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/face.svg" afterPath="$PROJECT_DIR$/ionic/www/img/face.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/face_4.jpg" afterPath="$PROJECT_DIR$/ionic/www/img/face_4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/face_4@2x.jpg" afterPath="$PROJECT_DIR$/ionic/www/img/face_4@2x.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/flash.svg" afterPath="$PROJECT_DIR$/ionic/www/img/flash.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/ionic.png" afterPath="$PROJECT_DIR$/ionic/www/img/ionic.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/painlevel_4.svg" afterPath="$PROJECT_DIR$/ionic/www/img/painlevel_4.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/point_blue.svg" afterPath="$PROJECT_DIR$/ionic/www/img/point_blue.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/point_red.svg" afterPath="$PROJECT_DIR$/ionic/www/img/point_red.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/point_yellow.svg" afterPath="$PROJECT_DIR$/ionic/www/img/point_yellow.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/range_bg.jpg" afterPath="$PROJECT_DIR$/ionic/www/img/range_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/range_bg.svg" afterPath="$PROJECT_DIR$/ionic/www/img/range_bg.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/rotation.svg" afterPath="$PROJECT_DIR$/ionic/www/img/rotation.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/img/timer_circle.svg" afterPath="$PROJECT_DIR$/ionic/www/img/timer_circle.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/ionic/www/js/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/ionic/www/js/controllers.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/ionic/www/js/services.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.css" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/css/ionic.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/css/ionic.min.css" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/css/ionic.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.eot" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.svg" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.ttf" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/fonts/ionicons.woff" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/release/angular-ui-router.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-animate.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-animate/angular-animate.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.js" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/angular/angular-resource.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-resource.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/angular/angular-resource.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/angular-sanitize/angular-sanitize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/angular/angular.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/angular/angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/angular/angular.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.js" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic-angular.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic-angular.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.js" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.bundle.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/js/ionic.min.js" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/js/ionic.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_action-sheet.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_animations.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_animations.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_backdrop.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_badge.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_badge.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_bar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button-bar.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_button.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_button.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_checkbox.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_form.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_form.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_grid.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_grid.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_items.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_items.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_list.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_list.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_loading.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_loading.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_menu.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_menu.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_mixins.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_modal.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_modal.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_platform.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_platform.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popover.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_popover.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_popup.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_popup.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_progress.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_progress.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_radio.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_radio.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_range.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_range.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_refresher.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_refresher.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_reset.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_reset.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_scaffolding.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_select.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_select.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_slide-box.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_slides.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_slides.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_spinner.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_spinner.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_tabs.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_tabs.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_toggle.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_toggle.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_transitions.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_transitions.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_type.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_type.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_util.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_util.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/_variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionic.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/ionic.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/lib/ionic/version.json" afterPath="$PROJECT_DIR$/ionic/www/lib/ionic/version.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/manifest.json" afterPath="$PROJECT_DIR$/ionic/www/manifest.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/service-worker.js" afterPath="$PROJECT_DIR$/ionic/www/service-worker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/baseline.html" afterPath="$PROJECT_DIR$/ionic/www/templates/baseline.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/camera.html" afterPath="$PROJECT_DIR$/ionic/www/templates/camera.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/chat-detail.html" afterPath="$PROJECT_DIR$/ionic/www/templates/chat-detail.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/device.html" afterPath="$PROJECT_DIR$/ionic/www/templates/device.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/sign-in.html" afterPath="$PROJECT_DIR$/ionic/www/templates/sign-in.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/tab-account.html" afterPath="$PROJECT_DIR$/ionic/www/templates/tab-account.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/tab-chats.html" afterPath="$PROJECT_DIR$/ionic/www/templates/tab-chats.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/tab-dash.html" afterPath="$PROJECT_DIR$/ionic/www/templates/tab-dash.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/tab-home.html" afterPath="$PROJECT_DIR$/ionic/www/templates/tab-home.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/tab-list.html" afterPath="$PROJECT_DIR$/ionic/www/templates/tab-list.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/tab-profile.html" afterPath="$PROJECT_DIR$/ionic/www/templates/tab-profile.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/tab-record.html" afterPath="$PROJECT_DIR$/ionic/www/templates/tab-record.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/tab-treat.html" afterPath="$PROJECT_DIR$/ionic/www/templates/tab-treat.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/ionic/www/templates/tabs.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/timer.html" afterPath="$PROJECT_DIR$/ionic/www/templates/timer.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/www/templates/treatmentlist.html" afterPath="$PROJECT_DIR$/ionic/www/templates/treatmentlist.html" />
+    <list default="true" id="c9b2cbed-3075-45ca-919b-95559965da64" name="New changelist" comment="Marge the project">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/Group 2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/body-blue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/body-head.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/body-orange.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/body_face.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/camera_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/face_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/face_4@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/home-outline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/home-outline@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/home@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/list-outline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/list-outline@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/list@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/pen-blue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/pen-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/pen-red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/profile-outline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/profile-outline@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/profile@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/record-outline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/record-outline@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/record.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/record@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/treat-outline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/treat-outline@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/treat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/treat@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/range_bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/body_head.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/body_whole.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/face.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/flash.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/icon/face.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/painlevel_4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/point_blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/point_red.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/point_yellow.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/range_bg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/rotation.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/img/timer_circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/baseline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/camera.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/device.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/sign-in.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-record.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-treat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/timer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package/mobile/www/templates/treatmentlist.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mobile/www/templates/chickadee.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mobile/www/templates/live.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mobile/www/templates/peeper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mobile/www/templates/report.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mobile/www/templates/setting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mobile/www/templates/tab-photo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mobile/www/templates/tabsController.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package/mobile/www/templates/whoIsComing.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/mobile/www/img/ionic.png" afterPath="$PROJECT_DIR$/package/mobile/www/img/ionic.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/.env" afterPath="$PROJECT_DIR$/package/.env" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/mobile/www/css/style.css" afterPath="$PROJECT_DIR$/package/mobile/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/mobile/www/index.html" afterPath="$PROJECT_DIR$/package/mobile/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/mobile/www/js/app.js" afterPath="$PROJECT_DIR$/package/mobile/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/mobile/www/js/controllers.js" afterPath="$PROJECT_DIR$/package/mobile/www/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/mobile/www/templates/chat-detail.html" afterPath="$PROJECT_DIR$/package/mobile/www/templates/chat-detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/mobile/www/templates/tab-account.html" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-account.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/mobile/www/templates/tab-chats.html" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-chats.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/mobile/www/templates/tab-dash.html" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tab-dash.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package/mobile/www/templates/tabs.html" afterPath="$PROJECT_DIR$/package/mobile/www/templates/tabs.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -795,18 +97,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="61" lean-forward="false" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="led.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sensor/button-led-bak/led.js">
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ionic/www/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -816,30 +108,40 @@
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
+        <entry file="file://$PROJECT_DIR$/package/mobile/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers.js">
+        <entry file="file://$PROJECT_DIR$/package/mobile/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="71" column="20" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionic/www/css/style.css">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="898">
-              <caret line="289" column="15" lean-forward="false" selection-start-line="289" selection-start-column="15" selection-end-line="289" selection-end-column="15" />
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="env.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package/server/config/env.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -873,6 +175,8 @@
         <option value="$PROJECT_DIR$/www/css/style.css" />
         <option value="$PROJECT_DIR$/www/templates/timer.html" />
         <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/package/mobile/www/index.html" />
+        <option value="$PROJECT_DIR$/package/.env" />
       </list>
     </option>
   </component>
@@ -892,8 +196,8 @@
     <handled-path value="$PROJECT_DIR$/sensor/touch/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1367" />
-    <option name="y" value="25" />
+    <option name="x" value="1169" />
+    <option name="y" value="23" />
     <option name="width" value="1278" />
     <option name="height" value="1417" />
   </component>
@@ -928,6 +232,20 @@
               <option name="myItemId" value="AcuPoint_new" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcuPoint_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AcuPoint_new" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -946,9 +264,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/package/mobile/www/js" />
+      <recent name="$PROJECT_DIR$/package/mobile/www/css" />
+      <recent name="$PROJECT_DIR$/package/mobile/www/img" />
+      <recent name="$PROJECT_DIR$/package/mobile/www/templates" />
       <recent name="$PROJECT_DIR$/sensor" />
-      <recent name="$PROJECT_DIR$/package/testing_sensor" />
-      <recent name="$PROJECT_DIR$/package" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/package" />
@@ -1031,7 +351,7 @@
       <workItem from="1492470634843" duration="5721000" />
       <workItem from="1492655689529" duration="8000" />
       <workItem from="1492655912473" duration="13822000" />
-      <workItem from="1492744378703" duration="2084000" />
+      <workItem from="1492744378703" duration="3108000" />
     </task>
     <task id="LOCAL-00001" summary="New changelist">
       <changelist id="c9b2cbed-3075-45ca-919b-95559965da64" name="New changelist" comment="" />
@@ -1074,7 +394,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21853000" />
+    <option name="totallyTimeSpent" value="22877000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1086,20 +406,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1367" y="25" width="1278" height="1417" extended-state="0" />
+    <frame x="1169" y="23" width="1278" height="1417" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20447284" sideWeight="0.75982535" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32348242" sideWeight="0.75982535" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3478261" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19221967" sideWeight="0.50319487" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3836766" sideWeight="0.4968051" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3836766" sideWeight="0.4968051" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.49371633" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23951182" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23951182" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20447284" sideWeight="0.24017467" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32951945" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1155,7 +475,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add new pages" />
     <MESSAGE value="New changelist" />
-    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
+    <MESSAGE value="Marge the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Marge the project" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1376,22 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="71" column="20" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionic/www/templates/tab-home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -1404,14 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic/www/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="898">
-          <caret line="289" column="15" lean-forward="false" selection-start-line="289" selection-start-column="15" selection-end-line="289" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1448,10 +745,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package/mobile/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sensor/button-led-bak/led.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mobile/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mobile/www/templates/baseline.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mobile/www/img/icon/face.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mobile/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="71" column="20" lean-forward="false" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="898">
+          <caret line="289" column="15" lean-forward="false" selection-start-line="289" selection-start-column="15" selection-end-line="289" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mobile/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/mobile/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package/server/config/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

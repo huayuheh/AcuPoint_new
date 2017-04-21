@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>point_red</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-15.6%" y="-9.4%" width="131.2%" height="131.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="flow5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4.2-point-red" transform="translate(-169.000000, -251.000000)" stroke="#F3807B" stroke-width="2">
+            <g id="point_red" filter="url(#filter-1)" transform="translate(172.000000, 252.000000)">
+                <circle id="Oval" fill="#FFFFFF" cx="16" cy="16" r="16"></circle>
+                <circle id="Oval" cx="16" cy="16" r="12"></circle>
+                <circle id="Oval" cx="16" cy="16" r="8"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
