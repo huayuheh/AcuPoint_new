@@ -59,6 +59,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       templateUrl: 'templates/camera.html',
       controller: 'CameraCtrl'
     })
+    .state('timer', {
+      url: '/timer',
+      templateUrl: 'templates/timer.html',
+      controller: 'TimerCtrl'
+    })
 
   // setup an abstract state for the tabs directive
     .state('tab', {

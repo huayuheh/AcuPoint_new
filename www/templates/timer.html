@@ -1,32 +1,16 @@
 <ion-view view-title="Timer">
+  <ion-nav-buttons side="left">
+    <a class="button button-icon icon ion-chevron-left" href="#/treatmentlist" ></a>
+  </ion-nav-buttons>
   <ion-content class="padding">
-    <h2>Timer</h2>
-    <div class="list">
 
-      <a class="item item-icon-left" href="#">Username
-        <span class="item-note">Alexis Zhang</span>
-      </a>
+  <img class="timer" src="img/timer_circle.svg">
 
-      <a class="item item-icon-left" href="#">Email
-        <span class="item-note">alexiszhang@gmail.com</span>
-      </a>
-
-      <a class="item item-icon-left" href="#">Password
-        <span class="item-note">********</span>
-      </a>
-
-      <a class="item item-icon-left" href="#">Gender
-        <span class="item-note">Female</span>
-      </a>
-
-
-
+    <b class=big_text>2:00</b>
+    <div class="baseline_bar">
+      <img src="img/range_bg.svg">
+      <input class="range_line" type="range" name="volume" ng-model="data1.volume" step="1" min="0" max="8" value="4">
     </div>
 
-
-
-    <a class="button button-outline button-positive" href="#/sign-in">
-      Sign Out
-    </a>
   </ion-content>
 </ion-view>

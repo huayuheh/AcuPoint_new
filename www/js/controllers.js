@@ -68,6 +68,10 @@ angular.module('starter.controllers', [])
 
   .controller('TreatmentlistCtrl', function($scope) {
   })
+
+  .controller('TimerCtrl', function($scope) {
+  })
+
   .controller('CameraCtrl', function($scope) {
 
   })

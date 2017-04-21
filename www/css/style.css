@@ -49,6 +49,10 @@ h3{
   font-weight: 800;
 }
 
+.bar .button.back-button, .bar button.back-button{
+  display: none;
+}
+
 
 /*Button*/
 .button{
@@ -280,6 +284,10 @@ h3{
   bottom: 48px;
   right: 8px;
   width: 40px;
+}
+/*timer*/
+.timer{
+  padding: 56px;
 }
 
 
