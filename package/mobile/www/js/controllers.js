@@ -61,9 +61,16 @@ angular.module('starter.controllers', [])
 
 })
   .controller('BaselineCtrl', function($scope) {
-    $scope.$watch('data1.volume', function(val) {
-      console.log('data1.volume: '+ val);
-    });
+    $scope.volume = 4;
+    $scope.min = 0;
+    $scope.max = 8;
+    $scope.painimage = "img/painlevel_4.svg";
+    $scope.myPain = function( vol ) {
+      $scope.volume = vol;
+      $scope.painimage = "img/painlevel_" + $scope.volume  + ".svg";
+    };
+
+
   })
 
   .controller('TreatmentlistCtrl', function($scope) {
