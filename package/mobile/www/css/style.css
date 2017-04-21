@@ -1,0 +1,28 @@
+/* Empty. Add your own CSS if you like */
+.led {
+  margin: 10px auto;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #999;
+  width: 300px;
+  height: 300px;
+}
+
+.active {
+  background-color: green;
+}
+
+img{
+  width: 100%;
+}
+.bird-thumb{
+  top:8px !important;
+  left:8px !important;
+  max-width: 56px !important;
+  max-height: 56px !important;
+  border-radius: 8px !important;
+}
+.large-img{
+  width: 100% !important;
+  height: 100% !important;
+}

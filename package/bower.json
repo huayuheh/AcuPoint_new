@@ -1,0 +1,22 @@
+{
+  "name": "mahrio-midterm",
+  "description": "WNM499: Internet Of Things; Midterm Review",
+  "main": "server/index.js",
+  "authors": [
+    "Jesus Guerrero <rocha.jesus@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ComputerEnchiladas/mahrio-midterm",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "server/public/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io-client": "^1.5.0",
+    "angular": "^1.5.8"
+  }
+}

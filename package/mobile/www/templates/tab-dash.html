@@ -1,0 +1,16 @@
+<ion-view view-title="Motion Alert">
+  <ion-content padding="true" class=" manual-remove-top-padding has-header">
+    <h1 id="whoIsComing-heading1" style="color:#000000;text-align:center;">{{captureNote}}</h1>
+    <div id="whoIsComing-markdown5" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">Time:
+        <strong>{{captureTime}}</strong>
+      </p>
+    </div>
+    <div style="margin: 0px;  background-color: rgb(232, 235, 239); text-align: center;">
+      <img alt="" ng-src="{{captureImage}}">
+    </div>
+    <button ng-click="buzzer()" id="whoIsComing-button8" class="button button-assertive button-small button-block">Buzzzzz!</button>
+    <button ng-click="identify()" id="whoIsComing-button10" class="button button-positive  button-block">Save it</button>
+
+  </ion-content>
+</ion-view>

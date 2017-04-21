@@ -1,0 +1,24 @@
+{
+  "name": "testing_sensor",
+  "version": "1.0.0",
+  "description": "include buzzer, two LED, camera using nam, camera with motion sensor,",
+  "main": "buzzer.js",
+  "scripts": {
+    "test": "testing motion sensor first then camerawithmotion. others can test without order."
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "sensor",
+    "motionsensor",
+    "LED",
+    "buzzer",
+    "camera"
+  ],
+  "author": "Hana (Huayu)",
+  "license": "ISC",
+  "dependencies": {
+    "onoff": "^1.1.1",
+    "raspicam": "^0.2.13"
+  }
+}
