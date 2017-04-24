@@ -1,0 +1,14 @@
+<ion-view view-title="Connect Device">
+  <ion-content class="padding">
+    <p class="p-big" >{{connectionNote}}</p>
+
+    <img class="small-img padding-top" ng-src={{connectionImg}} >
+    <p class="padding-top" ng-class="connectionStatusClass">{{connectionStatus}}</p>
+    <button class="button" ng-click="powerOn()">Power</button>
+    </ion-content>
+  <div class="bar bar-footer padding">
+    <a class="button button-noline" href="#/tab/treat">
+      Don't have a device? Skip>></a>
+
+  </div>
+</ion-view>

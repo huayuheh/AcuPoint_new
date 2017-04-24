@@ -4,12 +4,11 @@
   </ion-nav-buttons>
 
   <ion-content class="padding">
-    <h2>Rate your pain</h2>
-    <p>Pain level: {{volume}}</p>
+
       <img class="face" ng-src={{painimage}}>
 
     <div class="baseline_bar">
-      <img src="img/range_bg.svg">
+      <img ng-src="img/range_bg.svg">
       <input class="range_line" type="range" ng-change="myPain(volume)" ng-model="volume" step="1" min="{{min}}" max="{{max}}" value="4">
     </div>
 

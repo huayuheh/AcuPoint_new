@@ -30,17 +30,35 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
+    .state('onboarding', {
+      url: '/onboarding',
+      templateUrl: 'templates/onboarding.html',
+      controller: 'OnboardingCtrl'
+    })
+    .state('signup', {
+      url: '/sign-up',
+      templateUrl: 'templates/sign-up.html',
+      controller: 'SignUpCtrl'
+    })
     .state('signin', {
       url: '/sign-in',
       templateUrl: 'templates/sign-in.html',
       controller: 'SignInCtrl'
     })
 
+    .state('connection', {
+      url: '/connection',
+      templateUrl: 'templates/connection.html',
+      controller: 'ConnectionCtrl'
+    })
+
+
     .state('device', {
       url: '/device',
       templateUrl: 'templates/device.html',
       controller: 'DeviceCtrl'
     })
+
 
     .state('baseline', {
       url: '/baseline',
@@ -64,6 +82,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       templateUrl: 'templates/timer.html',
       controller: 'TimerCtrl'
     })
+    .state('feedback', {
+      url: '/feedback',
+      templateUrl: 'templates/feedback.html',
+      controller: 'FeedbackCtrl'
+    })
+    .state('ending', {
+      url: '/ending',
+      templateUrl: 'templates/ending.html',
+      controller: 'EndingCtrl'
+    })
+
 
   // setup an abstract state for the tabs directive
     .state('tab', {
@@ -73,8 +102,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   })
 
   // Each tab has its own nav history stack:
-
-
 
   .state('tab.home', {
     url: '/home',
@@ -138,6 +165,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   ;
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/sign-in');
+  $urlRouterProvider.otherwise('/onboarding');
 
 });

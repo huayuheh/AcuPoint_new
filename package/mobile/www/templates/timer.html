@@ -6,11 +6,12 @@
 
   <img class="timer" src="img/timer_circle.svg">
 
-    <b class=big_text>2:00</b>
+    <b class=big_text>{{counter | formatTimer}}</b>
     <div class="baseline_bar">
       <img src="img/range_bg.svg">
       <input class="range_line" type="range" name="volume" ng-model="data1.volume" step="1" min="0" max="8" value="4">
     </div>
-
+    <button class="button" ng-click="pause()">{{buttonText}}</button>
+    <button class="button" ng-click="next()">Next</button>
   </ion-content>
 </ion-view>

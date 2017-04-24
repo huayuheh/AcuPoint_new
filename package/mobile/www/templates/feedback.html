@@ -1,0 +1,28 @@
+<ion-view view-title="After Treatment">
+  <ion-nav-buttons side="left">
+    <a class="button button-icon icon ion-chevron-left" href="#/timer" ></a>
+  </ion-nav-buttons>
+  <ion-content class="padding">
+    <div class="card card-clean">
+      <div class="card-title">Baseline</div>
+      <div class="card-body row">
+        <div class="col">
+          <img class="img64" src="img/painlevel_4.svg" alt="">
+        </div>
+        <div class="col">
+          <p>Pain Level</p>
+          <b>4</b>
+        </div>
+      </div>
+    </div>
+    <img class="face" ng-src={{painimage}}>
+
+    <div class="baseline_bar">
+      <img ng-src="img/range_bg.svg">
+      <input class="range_line" type="range" ng-change="myPain(volume)" ng-model="volume" step="1" min="{{min}}" max="{{max}}" value="4">
+    </div>
+
+    <a class="button button-block button-orange" href="#/ending" >Finish</a>
+
+  </ion-content>
+</ion-view>

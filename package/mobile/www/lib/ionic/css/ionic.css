@@ -7740,8 +7740,9 @@ input[type="color"] {
   height: 34px;
   color: #111;
   vertical-align: middle;
-  font-size: 14px;
-  line-height: 16px; }
+  font-size: 13px;
+  line-height: 16px;
+  kerning: 2px;}
 
 .platform-ios input[type="datetime-local"],
 .platform-ios input[type="date"],
