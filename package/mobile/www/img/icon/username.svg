@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="22px" height="26px" viewBox="0 0 22 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>username</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="flow5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.3-signup-page" transform="translate(-48.000000, -206.000000)" stroke="#F9B763">
+            <g id="Group-2" transform="translate(35.000000, 194.000000)">
+                <g id="username" transform="translate(8.000000, 8.000000)">
+                    <g id="Group-8" transform="translate(5.333333, 4.000000)">
+                        <circle id="Oval-7" cx="10.6666667" cy="6.66666667" r="6.16666667"></circle>
+                        <path d="M0.5,18.6688873 C0.5,16.7314124 2.06156335,15.1666667 4.00011711,15.1666667 L17.3332162,15.1666667 C19.2685887,15.1666667 20.8333333,16.7304791 20.8333333,18.6688873 L20.8333333,23.3270149 C20.8333333,24.1623784 20.1642456,24.8333333 19.3263451,24.8333333 L2.00698821,24.8333333 C1.17190406,24.8333333 0.5,24.163312 0.5,23.3270149 L0.5,18.6688873 Z" id="Rectangle-16"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
