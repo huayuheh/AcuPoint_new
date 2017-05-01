@@ -1,5 +1,58 @@
 localStorage.beforePL= 4;
 
+
+
+
+
+function lazyLoad(url,fn){
+  // Create cache if it doesn't exist
+  if(!lazyLoad.cache) lazyLoad.cache = [];
+  // Load file from cache if it already exists
+  if(lazyLoad.cache[url]) {
+    // If a function was passed, send the data to it
+    if(fn!==undefined) fn(lazyLoad.cache[url]);
+  } else {
+    // If file doesn't exist in cache, load the file
+    $.ajax({url:url})
+      .always(function(d){
+        console.log("loading:"+url);
+      })
+      .fail(function(d){
+        console.log("failed to load:"+url+" relevant info",d);
+      })
+      .done(function(d){
+        console.log("loaded:"+url);
+        // Set the file contents into the local cache
+        lazyLoad.cache[url] = d;
+        // If a function was passed, call it
+        if(fn!==undefined) fn(d);
+      });
+  }
+}
+function lazyLoadSVG(data) {
+  lazyLoad(data.url,function(d){
+    $(data.obj).replaceWith($(d).find("svg").addClass(data.cls));
+  });
+}
+
+
+function getSVG(obj) {
+  $.ajax({url:obj.data("src")}).done(function(d){
+    var doc = $(d).find("svg").removeAttr("style");
+    doc.find("circle").remove()
+    doc.find("path").removeAttr("style transform");
+    var i =$("<i class='icon'>").html(doc);
+    obj.replaceWith(i);
+  });
+}
+$("i[data-src]").each(function(){ getSVG($(this)); });
+
+//<i data-src="/img/svg/twitter-icon.svg"></i>
+
+
+
+
+
 angular.module('starter.controllers', [])
   .controller('OnboardingCtrl', function($scope,$timeout, $state){
     $timeout(function () {
@@ -116,23 +169,43 @@ angular.module('starter.controllers', [])
     $scope.cameraNote = "Untouched !!";
     $scope.cameraNoteColor = { "color" : "#F3807B"};
 
-    $scope.touchSensorOn = function(){
-      var touchRandom = setInterval(function(){ randomLoction() }, 500);
-      function randomLoction(){
-        var randomNum = Math.floor((Math.random() * 10) + 1);
-        if (randomNum > 8) {
-          console.log("Touch on");
-          touchRight();
-            clearInterval(touchRandom);
-        }else {
-          console.log("near by");
-          $scope.cameraPoint = "img/point-yellow.svg";
-          $scope.cameraNote = "Near By !!";
-          $scope.cameraNoteColor = { "color" : "#7E4477"};
+    $scope.rn = function(min,max){
+      var rand = Math.random();
+      if(max === void(0)) {
+        if(min === void(0)) {
+          return rand < 0.5;
+        } else {
+          return Math.floor(rand * min);
         }
+      } else {
+        return Math.round((rand * (max - min)) + min);
       }
     }
-    function touchRight(){
+    $scope.randomLoction = function(){
+      var randomNum = $scope.rn(1,10);//Math.ceil((Math.random() * 10));
+      if (randomNum > 8) {
+        console.log("Touch on");
+        $scope.touchRight();
+        clearInterval($scope.touchRandom);
+      }else {
+        console.clear();
+        console.log("near by",$scope.cameraPoint);
+        $scope.cameraPoint = "img/point-yellow.svg";
+        $scope.cameraNote = "Near By !!";
+        $scope.cameraNoteColor =
+          {
+            "color" : "#7E4477",
+            "top": "calc(30% + "+$scope.rn(-40,40)+"px)",
+            "left": "calc(40% + "+$scope.rn(-40,40)+"px)"
+          };
+
+        console.log("near by",$scope.cameraPoint);
+      }
+    }
+    $scope.touchSensorOn = function(){
+      $scope.touchRandom = setInterval(function(){ $scope.randomLoction() }, 500);
+    }
+    $scope.touchRight = function(){
       console.log("Touch on Stasus");
       $scope.cameraPoint = "img/point-blue.svg";
       $scope.cameraNote = "Touched !!";
