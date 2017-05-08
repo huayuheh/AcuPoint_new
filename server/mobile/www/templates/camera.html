@@ -1,0 +1,17 @@
+<ion-view view-title="Third eye treatment">
+  <ion-nav-buttons side="left">
+    <a class="button button-icon icon ion-chevron-left" href="#/treatmentlist" ></a>
+  </ion-nav-buttons>
+
+  <ion-content class="overflow-hide">
+    <button ng-click="touchSensorOn()">touch</button>
+    <img src="img/camera_bg.jpg">
+    <img class="touch_point" ng-src={{cameraPoint}}>
+    <div  class="touch_note" ng-style="cameraNoteColor">{{cameraNote}}</div>
+
+
+    <img class="rotation" src="img/rotation.svg">
+    <a href="#/timer"><img class="flash" src="img/flash.svg"></a>
+
+  </ion-content>
+</ion-view>
