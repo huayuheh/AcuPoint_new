@@ -1,0 +1,429 @@
+/* Empty. Add your own CSS if you like */
+.padding{
+  padding: 0 16px 32px;
+}
+.padding-top{
+  padding-top: 16px;
+}
+.padding-top-small{
+  padding-top: 8px;
+}
+.padding-bottom{
+  padding-bottom: 8px ;
+}
+.padding-left{
+  padding-left: 16px;
+}
+.no-padding{
+  padding: 0;
+}
+.padding-side{
+  padding: 0 8px;
+}
+
+.img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.img-device{
+  padding: 16px 24px;
+}
+.search-container{
+  position: relative;
+}
+
+.icon-img{
+  padding-left: 8px;
+  height: 40px;
+  float: right;
+}
+
+.row{
+  padding: 0 ;
+}
+.col{
+  padding: 0 8px;
+}
+
+
+.list-inset{
+  margin: 0;
+}
+.big-card{
+  margin: 8px 8px 0;
+  border: 1px solid #055277;
+  border-radius: 16px;
+
+/*small card*/
+}
+.small-card{
+  margin: 8px 8px 8px 8px;
+  float: left;
+  width: calc(50% - 16px);
+  border: 1px solid #055277;
+  border-radius: 16px;
+  /*height: 176px;*/
+}
+
+
+.small-card-header{
+  height: 48px;
+  vertical-align: middle;
+}
+.small-card-img{
+  width: 100%;
+  height: 96px;
+  overflow: hidden;
+}
+
+
+.btn-small{
+  font-size: 13px;
+  line-height: 16px;
+  padding: 8px 0 ;
+  margin: 0;
+  color: #82A8BB;
+}
+
+
+h2{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  padding: 16px  0 0px;
+  margin: 0;
+  color: #17B497;
+}
+h3{
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: center;
+  padding: 8px;
+  margin: 0;
+  color: #5186A0;
+}
+p{
+  color: #055277;
+}
+.p-note{
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 16px;
+  margin: 8px;
+  text-align: center;
+  color: #055277;
+}
+.p-big{
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 32px;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #05BED7;
+}
+.span-small{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #055277;
+}
+.bird-top-border{
+  margin-top: 8px;
+  border-left: 1px solid #055277;
+  border-right: 1px solid #055277;
+  border-top: 1px solid #055277;
+  border-radius: 16px 16px 0 0;
+}
+
+.bird-bottom-border{
+  border: 1px solid #055277;
+  border-radius: 0 0 16px 16px;
+}
+.side-border{
+  border-left: 1px solid #055277;
+  border-right: 1px solid #055277;
+}
+
+
+.list{
+  margin-bottom: 0;
+}
+
+
+.my-icon-button{
+  margin-top: -4px;
+  background: url("../img/icon/filter.svg") no-repeat;
+  width: 100%;
+  margin-left: 16px;
+  height: 40px;
+}
+.my-icon-button .activated{
+  margin-top: -4px;
+  background: url("../img/icon/filter.svg") no-repeat;
+  width: 100%;
+  margin-left: 16px;
+  height: 40px;
+}
+
+
+.my-alert{
+  height: 48px;
+  text-align: left;
+  border-radius: 24px;
+}
+
+.led {
+  margin: 10px auto;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: #999;
+  width: 300px;
+  height: 300px;
+}
+
+.active {
+  background-color: green;
+}
+
+img{
+  width: 100%;
+}
+.bird-thumb{
+  top:8px !important;
+  left:8px !important;
+  max-width: 56px !important;
+  max-height: 56px !important;
+  border-radius: 8px !important;
+}
+.large-img{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/*device*/
+
+
+
+.flow-bottom{
+  position: absolute;
+  top: 140px;
+  width: calc(50% - 32px);
+}
+.device-icon{
+  display: block;
+  width: auto;
+  height: 48px;
+  margin: 0 auto;
+  padding: 4px 8px;
+}
+.board-left{
+  border-left: 1px solid #055277;;
+}
+
+
+
+/*ICON PICTURE*/
+.ion-ios-myhome:before{
+  content: url("../img/icon/home-outline.svg")!important;
+}
+.ion-ios-myhome-strong:before {
+  content: url("../img/icon/home.svg")!important;
+}
+.ion-ios-dict:before{
+  content: url("../img/icon/dict-outline.svg")!important;
+}
+.ion-ios-dict-strong:before {
+  content: url("../img/icon/dict.svg")!important;
+}
+.ion-ios-record:before{
+  content: url("../img/icon/record-outline.svg")!important;
+}
+.ion-ios-record-strong:before {
+  content: url("../img/icon/record.svg")!important;
+}
+.ion-ios-device:before{
+  content: url("../img/icon/device-outline.svg")!important;
+}
+.ion-ios-device-strong:before {
+  content: url("../img/icon/device.svg")!important;
+}
+.ion-ios-setting:before{
+  content: url("../img/icon/setting-outline.svg")!important;
+}
+.ion-ios-setting-strong:before {
+  content: url("../img/icon/setting.svg")!important;
+}
+
+
+
+
+
+/*Change Default IONIC setting */
+
+/*Tabs*/
+.tabs{
+
+  height: 53px;
+  background-color: white;
+  background-size: 100% 4px;
+  border-color: #17B497;
+  background-image: linear-gradient(0deg, #17B497, #17B497 50%, transparent 50%);
+  color: #17B497;
+}
+.tabs-icon-top > .tabs .tab-item, .tabs-icon-top.tabs .tab-item, .tabs-icon-bottom > .tabs .tab-item, .tabs-icon-bottom.tabs .tab-item{
+
+  color: #17B497;
+}
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated{
+  background: linear-gradient(to bottom right,#17B497,#1F92AC);
+  color: white;
+  font-weight: 600;
+
+}
+ion-tabs{
+
+}
+.tab-item .icon{
+  margin: 8px auto -8px ;
+}
+
+/*Header */
+.bar.bar-stable{
+  background: linear-gradient(90deg, #17B497, #1F92AC 100%, transparent 50%);
+  color: white;
+}
+.bar.bar-stable .title{
+  color: white;
+  font-size: 23px;
+  letter-spacing: 1.2px;
+}
+.bar-stable .button.button-clear{
+  color: white;
+}
+
+/*Button*/
+
+
+.button-assertive{
+
+}
+.button-positive{
+
+}
+.button.button-positive.button-outline{
+  border-color: #055277;
+  border-width: 1px;
+  color: #5186A0;
+  border-radius: 24px;
+}
+.button.icon-left:before{
+  padding: 0 12px 0 8px;
+}
+.button.button-positive{
+  background-color: #17B497;
+  border-radius: 16px;
+
+}
+.button.button-positive.active, .button.button-positive.activated {
+  border-color: #1F92AC;
+  background-color: #1F92AC;
+  font-weight: 600;
+}
+.button.button-positive.button-clear{
+  border-color: #17B497;
+  color: #17B497;
+}
+.button.button-positive.button-clear.active, .button.button-positive.button-clear.activated{
+  border-color: #1F92AC;
+  background-color: #ffffff;
+  color: #1F92AC;
+  font-weight: 600;
+}
+
+.button.button-assertive.button-outline{
+  border-color: #F7852C;
+  color: #F7852C;
+}
+
+.button.button-assertive.button-outline.active, .button.button-assertive.button-outline.activated{
+  border-color: #F7852C;
+  background:linear-gradient(90deg, #F7852C, #F15E2E 100%, transparent 50%);
+  color: white;
+  font-weight: 600;
+}
+
+/*item*/
+a.item{
+  color: #055277;
+  padding: 14px;
+}
+.item{
+  border-color: #055277;
+  padding: 0;
+  color:  #055277;
+}
+.only-one{
+  border-radius: 24px;
+}
+.item-first{
+  border-radius: 24px 24px 0 0;
+}
+.item-last{
+  border-radius: 0 0 24px 24px;
+}
+.item-note{
+  color: #82A8BB;
+}
+
+/*radio*/
+.item-radio input:checked + .radio-content .item-content{
+  background-color: #05BED7;
+  color: white;
+  font-weight: 600;
+}
+
+.item-complex .item-content, .item-radio .item-content{
+  padding: 14px;
+
+}
+.item-radio .radio-icon{
+  color: white;
+  top: -4px;
+}
+
+/*card*/
+
+.item-divider{
+  border-width:0 ;
+}
+
+
+.placeholder-icon:first-child{
+  padding-left: 16px;
+  color: #B4CBD6;
+}
+
+.item-input{
+  width:100% ;
+  margin-left: 16px;
+}
+.card .item:last-child, .list-inset .item:last-child, .padding > .list .item:last-child{
+  border-radius: 20px;
+}
+.card .item.item-input input, .list-inset .item.item-input input, .padding > .list .item.item-input input, .padding-horizontal > .list .item.item-input input{
+  padding-left: 16px;
+}
+.big-textarea{
+  margin: 0 0 0 0 !important;
+  width:100%  !important;
+  height: 142px !important;
+  padding: 16px;
+  color: #5186A0;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  border: 1px solid #055277;
+  border-radius: 16px;
+}

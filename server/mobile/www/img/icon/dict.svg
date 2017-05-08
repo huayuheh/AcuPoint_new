@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>dict</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2,1.99508929 C2,0.893231902 2.88743329,0.177486658 3.95183977,0.390367955 L10.0481602,1.60963205 C11.1261316,1.82522631 12,2.8926228 12,3.99508929 L12,20 L3.95183977,18.390368 C2.87386843,18.1747737 2,17.1073772 2,16.0049107 L2,1.99508929 Z M12,3.99508929 C12,2.8932319 12.8874333,1.82251334 13.9518398,1.60963205 L20.0481602,0.390367955 C21.1261316,0.174773687 22,0.892622799 22,1.99508929 L22,16.0049107 C22,17.1067681 21.1125667,18.1774867 20.0481602,18.390368 L12,20 L12,3.99508929 Z" id="path-1"></path>
+    </defs>
+    <g id="wireframe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home-copy" transform="translate(-101.000000, -570.000000)">
+            <g id="Group-4-Copy-2" transform="translate(75.000000, 563.000000)">
+                <g id="dict" transform="translate(26.000000, 7.000000)">
+                    <path d="M11,6.26560345 L11,5.99508929 C11,4.8926228 10.1195323,3.83991497 9.03342044,3.64244008 L1.96657956,2.35755992 C0.881581739,2.16028759 0,2.8932319 0,3.99508929 L0,18.0049107 C0,19.1073772 0.880467658,20.160085 1.96657956,20.3575599 L10.1892302,21.8525873 C10.5088104,22.5325066 11.1994812,23 12,23 C12.805183,23 13.4926966,22.5307293 13.8109528,21.852554 L22.0334204,20.3575599 C23.1184183,20.1602876 24,19.1067681 24,18.0049107 L24,3.99508929 C24,2.8926228 23.1195323,2.16008503 22.0334204,2.35755992 L14.9665796,3.64244008 C13.8815817,3.83971241 13,4.8932319 13,5.99508929 L13,6.26639338 C12.7058266,6.09680997 12.3642871,6 12,6 C11.6345946,6 11.2934232,6.09664604 11,6.26560345 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <g id="Combined-Shape">
+                        <use fill="#17B497" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#FFFFFF" stroke-width="1" d="M11.5,19.390098 L4.04989784,17.9000776 C3.20560918,17.7312199 2.5,16.8690058 2.5,16.0049107 L2.5,1.99508929 C2.5,1.21388697 3.09372842,0.728647636 3.85378171,0.880658293 L9.95010216,2.09992238 C10.7943908,2.26878012 11.5,3.13099415 11.5,3.99508929 L11.5,19.390098 Z M12.5,19.390098 L12.5,3.99508929 C12.5,3.13655153 13.21431,2.26703996 14.0498978,2.09992238 L20.1462183,0.880658293 C20.9146968,0.726962601 21.5,1.20804838 21.5,1.99508929 L21.5,16.0049107 C21.5,16.8634485 20.78569,17.73296 19.9501022,17.9000776 L12.5,19.390098 Z"></path>
+                    </g>
+                    <path d="M19,6 L15,5" id="Line" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.000000, 5.500000) scale(-1, 1) translate(-17.000000, -5.500000) "></path>
+                    <path d="M19,9 L15,8" id="Line-Copy-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.000000, 8.500000) scale(-1, 1) translate(-17.000000, -8.500000) "></path>
+                    <path d="M19,12 L15,11" id="Line-Copy-8" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.000000, 11.500000) scale(-1, 1) translate(-17.000000, -11.500000) "></path>
+                    <path d="M19,15 L15,14" id="Line-Copy-9" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.000000, 14.500000) scale(-1, 1) translate(-17.000000, -14.500000) "></path>
+                    <path d="M9,6 L5,5" id="Line" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M9,9 L5,8" id="Line-Copy-7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M9,12 L5,11" id="Line-Copy-8" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M9,15 L5,14" id="Line-Copy-9" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
