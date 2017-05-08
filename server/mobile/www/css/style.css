@@ -4,7 +4,10 @@ body{
   letter-spacing: 1px;
 }
 .padding{
-  padding: 16px 32px;
+  padding: 0 32px;
+}
+.padding-top{
+  padding-top: 16px;
 }
 overflow-hide{
   overflow: hidden;
@@ -22,6 +25,7 @@ img.img176{
   margin: 48px auto 80px;
   width: 176px;
 }
+
 
 h2{
   font-size: 17px;
@@ -162,8 +166,16 @@ a{
 .bar.bar-stable .title{
   color: #F9B763;
   font-weight: 800;
-  font-size: 17px;
+  font-size: 23px;
 }
+.bar-stable .button:hover{
+  color: #F9B763;
+}
+
+.my-left-icon{
+  margin-top: -4px;
+}
+
 
 .bar .button.back-button, .bar button.back-button{
   display: none;

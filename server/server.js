@@ -68,13 +68,13 @@ require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
 
         touch.watch(function(err, value) {
             if (value == true){
-                console.log('touch on');
-                led1.writeSync(1);
+                console.log('touch off');
+                led1.writeSync(0);
                 socket.emit('event:touch', true);
 
             }else{
-                console.log('touch off');
-                led1.writeSync(0);
+                console.log('touch on');
+                led1.writeSync(1);
                 socket.emit('event:touch', false);
             }
         });
@@ -96,6 +96,5 @@ process.on('SIGINT', function(){
     button.unexport();
     touch.unexport();
     led1.unexport();
-    led2.unexport();
     process.exit();
 });

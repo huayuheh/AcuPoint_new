@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="375px" height="32px" viewBox="0 0 375 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>timeline-5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="35" cy="17" r="8"></circle>
+        <circle id="path-2" cx="340" cy="17" r="8"></circle>
+        <circle id="path-3" cx="187.5" cy="17" r="8"></circle>
+        <circle id="path-4" cx="289.166667" cy="17" r="8"></circle>
+        <circle id="path-5" cx="238.333333" cy="17" r="8"></circle>
+        <circle id="path-6" cx="85.8333333" cy="17" r="8"></circle>
+        <circle id="path-7" cx="136.666667" cy="17" r="8"></circle>
+    </defs>
+    <g id="version3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.1-treatment" transform="translate(0.000000, -59.000000)">
+            <g id="timeline-5" transform="translate(0.000000, 59.000000)">
+                <rect id="Rectangle-5" fill="#FFFFFF" x="0" y="0" width="375" height="32"></rect>
+                <path d="M28,17 L347,17" id="Line-Copy" stroke="#F9B763" stroke-width="2" stroke-linecap="square"></path>
+                <g id="Oval-5">
+                    <use fill="#F9B763" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <circle stroke="#F9B763" stroke-width="2" cx="35" cy="17" r="7"></circle>
+                </g>
+                <g id="Oval-5-Copy">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <circle stroke="#F9B763" stroke-width="2" cx="340" cy="17" r="7"></circle>
+                </g>
+                <g id="Oval-5-Copy-2">
+                    <use fill="#F9B763" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <circle stroke="#F9B763" stroke-width="2" cx="187.5" cy="17" r="7"></circle>
+                </g>
+                <g id="Oval-5-Copy-3">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <circle stroke="#F9B763" stroke-width="2" cx="289.166667" cy="17" r="7"></circle>
+                </g>
+                <g id="Oval-5-Copy-4">
+                    <use fill="#F9B763" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <circle stroke="#F9B763" stroke-width="2" cx="238.333333" cy="17" r="7"></circle>
+                </g>
+                <g id="Oval-5-Copy-6">
+                    <use fill="#F9B763" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <circle stroke="#F9B763" stroke-width="2" cx="85.8333333" cy="17" r="7"></circle>
+                </g>
+                <g id="Oval-5-Copy-5">
+                    <use fill="#F9B763" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <circle stroke="#F9B763" stroke-width="2" cx="136.666667" cy="17" r="7"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

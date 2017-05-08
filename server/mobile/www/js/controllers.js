@@ -147,32 +147,11 @@ angular.module('starter.controllers', [])
       // }
     });
 
-    // $scope.touchSensorOn = function(){
-    //   var touchRandom = setInterval(function(){ randomLoction() }, 500);
-    //   function randomLoction(){
-    //     var randomNum = Math.floor((Math.random() * 10) + 1);
-    //     if (randomNum > 8) {
-    //       console.log("Touch on");
-    //       touchRight();
-    //       clearInterval(touchRandom);
-    //     }else {
-    //       console.log("near by");
-    //       $scope.cameraPoint = "img/point-yellow.svg";
-    //       $scope.cameraNote = "Near By !!";
-    //       $scope.cameraNoteColor = { "color" : "#7E4477"};
-    //     }
-    //   }
-    // }
-    // function touchRight(){
-    //   console.log("Touch on Stasus");
-    //   $scope.cameraPoint = "img/point-blue.svg";
-    //   $scope.cameraNote = "Touched !!";
-    //   $scope.cameraNoteColor = { "color" : "#65A1C8"};
-    //   $timeout(function () {
-    //     $state.go('timer');
-    //   }, 2000);
-    // }
+    $scope.touchSensorOn = function(){
+          $state.go('timer');
+      }
   })
+
   .controller('TimerCtrl', function($scope, $timeout, $state) {
     $scope.counter = 120;
     $scope.stopped = false;
