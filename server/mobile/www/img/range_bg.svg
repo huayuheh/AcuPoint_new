@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="308px" height="66px" viewBox="0 0 308 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="45.7244873%" x2="100%" y2="45.7244873%" id="linearGradient-1">
+            <stop stop-color="#7E4477" offset="0%"></stop>
+            <stop stop-color="#F3807B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="35.0952148%" x2="100%" y2="35.0952148%" id="linearGradient-2">
+            <stop stop-color="#65A1C8" offset="0%"></stop>
+            <stop stop-color="#6A68A8" offset="51.7179528%"></stop>
+            <stop stop-color="#7E4477" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="flow5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.3-baseline-copy" transform="translate(-33.000000, -392.000000)">
+            <g id="Group" transform="translate(33.000000, 385.000000)">
+                <text id="No-Pain" font-family="CenturyGothic, Century Gothic" font-size="10" font-weight="normal" line-spacing="16" letter-spacing="0.470588267" fill="#65A1C8">
+                    <tspan x="0" y="54">No </tspan>
+                    <tspan x="0" y="70">Pain</tspan>
+                </text>
+                <text id="Severe-Pain" font-family="CenturyGothic, Century Gothic" font-size="10" font-weight="normal" line-spacing="16" letter-spacing="0.470588267" fill="#F3807B">
+                    <tspan x="271.188189" y="54">Severe</tspan>
+                    <tspan x="281.028895" y="70"> Pain</tspan>
+                </text>
+                <polyline id="Line-Copy-5" stroke="#7E4477" stroke-width="2" stroke-linecap="square" points="154 8.12622848 154 24.122366 154 24.2485945 155 24.2485945 155 24.122366 155 8.12622848 155 8 154 8"></polyline>
+                <polyline id="Line-Copy-4" stroke="#995278" stroke-linecap="square" points="190 8.2485945 190 24 190 24.2485945 191 24.2485945 191 24 191 8.2485945 191 8 190 8"></polyline>
+                <polyline id="Line-Copy-3" stroke="#B66178" stroke-linecap="square" points="228 8.2485945 228 24 228 24.2485945 229 24.2485945 229 24 229 8.2485945 229 8 228 8"></polyline>
+                <polyline id="Line-Copy-2" stroke="#D5717A" stroke-linecap="square" points="266 8.2485945 266 24 266 24.2485945 267 24.2485945 267 24 267 8.2485945 267 8 266 8"></polyline>
+                <polyline id="Line-Copy" stroke="#F3807B" stroke-width="2" stroke-linecap="square" points="306 8.12622848 306 24.122366 306 24.2485945 307 24.2485945 307 24.122366 307 8.12622848 307 8 306 8"></polyline>
+                <polyline id="Line" stroke="#63A5D4" stroke-width="2" stroke-linecap="square" points="2 8.12622848 2 24.122366 2 24.2485945 3 24.2485945 3 24.122366 3 8.12622848 3 8 2 8"></polyline>
+                <polyline id="Line-Copy-6" stroke="#745791" stroke-linecap="square" points="115 8.2485945 115 24 115 24.2485945 116 24.2485945 116 24 116 8.2485945 116 8 115 8"></polyline>
+                <polyline id="Line-Copy-7" stroke="#696BAA" stroke-linecap="square" points="77 8.2485945 77 24 77 24.2485945 78 24.2485945 78 24 78 8.2485945 78 8 77 8"></polyline>
+                <polyline id="Line-Copy-8" stroke="#6887BA" stroke-linecap="square" points="39 8.2485945 39 24 39 24.2485945 40 24.2485945 40 24 40 8.2485945 40 8 39 8"></polyline>
+                <polyline id="Line" stroke="url(#linearGradient-1)" stroke-width="3" stroke-linecap="square" points="155.250001 16.497189 306.251654 16.497189 306.501656 16.497189 306.501656 16 306.251654 16 155.250001 16 155 16 155 16.497189"></polyline>
+                <polyline id="Line-Copy-9" stroke="url(#linearGradient-2)" stroke-width="3" stroke-linecap="square" points="3.25000137 16.497189 154.251654 16.497189 154.501656 16.497189 154.501656 16 154.251654 16 3.25000137 16 3 16 3 16.497189"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

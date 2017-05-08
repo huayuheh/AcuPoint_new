@@ -1,0 +1,22 @@
+ㄎ<ion-view view-title="Baseline">
+  <ion-nav-buttons side="left">
+    <a class="button button-icon icon ion-chevron-left my-left-icon" href="#/tab/treat" ></a>
+  </ion-nav-buttons>
+
+  <ion-content class="padding">
+    <img  src="img/timeline/timeline-2.svg">
+
+      <img class="face" ng-src={{painimage}}>
+
+    <div class="baseline_bar">
+      <img ng-src="img/range_bg.svg">
+      <input class="range_line" type="range" ng-change="myPain(volume)" ng-model="volume" step="1" min="{{min}}" max="{{max}}" value="4">
+    </div>
+
+    <a class="button button-block button-orange" href="#/treatmentlist" >Find Treatment</a>
+
+
+
+
+  </ion-content>
+</ion-view>

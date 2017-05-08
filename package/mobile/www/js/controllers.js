@@ -91,15 +91,17 @@ angular.module('starter.controllers', [])
       $scope.connectionStatus = "Power Off"
     }, 6000);
 
-    $scope.powerOn = function(){
+    socket.on('event:button:state', function( val ) {
+
+    // $scope.powerOn = function() {
       console.log("powerOn");
-      $scope.connectionImg = "img/pen-blue.svg"
-      $scope.connectionStatus = "Power On"
+      $scope.connectionImg = "img/pen-blue.svg";
+      $scope.connectionStatus = "Power On";
       $timeout(function () {
         $state.go('tab.treat');
       }, 2000);
-
-    };
+      // }
+    });
   })
 
 
