@@ -6,29 +6,19 @@ var Gpio = require('onoff').Gpio,	//onoff module (use npm install onoff)
     level = 0,
     timer = 0;
 
-var RgbChannel = require('rpi-rgb').Channel;
-var Colour = require('rpi-rgb').Colour;
-
-var channel1 = new RgbChannel(6,5,4);// BCM 25,24,23
-
-
-var blue = new Colour(0,100,0);
-var white = new Colour(100,100,100);
-var black = new Colour(0,0,0);
+// var RgbChannel = require('rpi-rgb').Channel;
+// var Colour = require('rpi-rgb').Colour;
+//
+// var channel1 = new RgbChannel(6,5,4);// BCM 25,24,23
+//
+//
+// var blue = new Colour(0,100,0);
+// var white = new Colour(100,100,100);
+// var black = new Colour(0,0,0);
 
 button.setActiveLow( true );		//optional to reverse button value
 touch.setActiveLow( true );
 
-var pattern = [[100,100,100,100], [200,200,200,200], [300,300,300,300]];
-
-function funPattern(i){
-    setTimeout(function(){ led.writeSync( 1 ); }, pattern[i][0]);
-    setTimeout(function(){ led.writeSync( 0 ); }, pattern[i][1]);
-    setTimeout(function(){ led.writeSync( 1 ); }, pattern[i][2]);
-    setTimeout(function(){ led.writeSync( 0 ); }, pattern[i][3]);
-    console.log('level' + i );
-    level = level + 1;
-}
 
 
 process.env.NODE_URL='10.0.1.30';
