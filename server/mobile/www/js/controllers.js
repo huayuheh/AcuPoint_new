@@ -38,15 +38,18 @@ angular.module('starter.controllers', [])
       $scope.connectionStatus = "Power Off"
     }, 6000);
 
-    socket.on('event:button:state', function( val ) {
+    socket.on('event:button', function() {
 
       // $scope.powerOn = function() {
       console.log("powerOn");
-      $scope.connectionImg = "img/pen-blue.svg";
-      $scope.connectionStatus = "Power On";
+      $timeout(function () {
+        $scope.connectionImg = "img/pen-blue.svg";
+        $scope.connectionStatus = "Power On";
+      }, 2000);
+
       $timeout(function () {
         $state.go('tab.treat');
-      }, 2000);
+      }, 4000);
       // }
     });
     $scope.powerOn = function() {
@@ -121,31 +124,54 @@ angular.module('starter.controllers', [])
     $scope.cameraNote = "Untouched !!";
     $scope.cameraNoteColor = { "color" : "#F3807B"};
 
-    $scope.touchSensorOn = function(){
-      var touchRandom = setInterval(function(){ randomLoction() }, 500);
-      function randomLoction(){
-        var randomNum = Math.floor((Math.random() * 10) + 1);
-        if (randomNum > 8) {
-          console.log("Touch on");
-          touchRight();
-          clearInterval(touchRandom);
-        }else {
-          console.log("near by");
-          $scope.cameraPoint = "img/point-yellow.svg";
-          $scope.cameraNote = "Near By !!";
-          $scope.cameraNoteColor = { "color" : "#7E4477"};
-        }
-      }
-    }
-    function touchRight(){
-      console.log("Touch on Stasus");
-      $scope.cameraPoint = "img/point-blue.svg";
-      $scope.cameraNote = "Touched !!";
-      $scope.cameraNoteColor = { "color" : "#65A1C8"};
+
+    socket.on('event:touch', function() {
+
+      // $scope.powerOn = function() {
+      console.log("powerOn");
+      $timeout(function () {
+        $scope.cameraPoint = "img/point-yellow.svg";
+        $scope.cameraNote = "Near By !!";
+        $scope.cameraNoteColor = { "color" : "#7E4477"};
+      }, 2000);
+
+      $timeout(function () {
+        $scope.cameraPoint = "img/point-blue.svg";
+        $scope.cameraNote = "Touched !!";
+        $scope.cameraNoteColor = { "color" : "#65A1C8"};
+      }, 4000);
+
       $timeout(function () {
         $state.go('timer');
-      }, 2000);
-    }
+      }, 6000);
+      // }
+    });
+
+    // $scope.touchSensorOn = function(){
+    //   var touchRandom = setInterval(function(){ randomLoction() }, 500);
+    //   function randomLoction(){
+    //     var randomNum = Math.floor((Math.random() * 10) + 1);
+    //     if (randomNum > 8) {
+    //       console.log("Touch on");
+    //       touchRight();
+    //       clearInterval(touchRandom);
+    //     }else {
+    //       console.log("near by");
+    //       $scope.cameraPoint = "img/point-yellow.svg";
+    //       $scope.cameraNote = "Near By !!";
+    //       $scope.cameraNoteColor = { "color" : "#7E4477"};
+    //     }
+    //   }
+    // }
+    // function touchRight(){
+    //   console.log("Touch on Stasus");
+    //   $scope.cameraPoint = "img/point-blue.svg";
+    //   $scope.cameraNote = "Touched !!";
+    //   $scope.cameraNoteColor = { "color" : "#65A1C8"};
+    //   $timeout(function () {
+    //     $state.go('timer');
+    //   }, 2000);
+    // }
   })
   .controller('TimerCtrl', function($scope, $timeout, $state) {
     $scope.counter = 120;

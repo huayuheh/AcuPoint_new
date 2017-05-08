@@ -66,6 +66,15 @@ require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
             }
         });
 
+        touch.watch(function(err, value) {	//watch button changes
+            if (value == true){
+                led1.writeSync(1);
+                socket.emit('event:touch', true);
+
+            }else{
+                led1.writeSync(0);
+            }
+        });
 
 
         //socket.on('myCustomMessage', function( val ){ console.log( val ); });
