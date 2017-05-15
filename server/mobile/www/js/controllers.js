@@ -1,4 +1,7 @@
 localStorage.beforePL= 4;
+localStorage.AfterPL= 4;
+var painDescriptionArray = ["0-No Pain", "1-Very Mind", "2-Discomforting","3-Tolerable","4-Distressing","5-Very Distressing", "6-Intense Pain","7-Very Intense Pain", "8-Horrible Pain"];
+
 
 angular.module('starter.controllers', [])
   .controller('OnboardingCtrl', function($scope,$timeout, $state){
@@ -69,7 +72,7 @@ angular.module('starter.controllers', [])
   .controller('TreatCtrl', function($scope, $ionicActionSheet, $timeout, $window) {
 
     $scope.showTreatment = function() {
-      document.getElementById('body-img').src = "img/body_head.svg";
+      document.getElementById('body-img').src = "img/woman-front-head.svg";
 
       // Show the action sheet
       var hideSheet = $ionicActionSheet.show({
@@ -84,7 +87,7 @@ angular.module('starter.controllers', [])
         cancelText: 'Cancel',
         cancel: function() {
           // add cancel code..
-          document.getElementById('body-img').src = "img/body_whole.svg";
+          document.getElementById('body-img').src = "img/woman-front.svg";
         },
         buttonClicked: function(index) {
           $window.location.assign('#/baseline');
@@ -100,15 +103,18 @@ angular.module('starter.controllers', [])
 
   })
   .controller('BaselineCtrl', function($scope) {
+
     $scope.volume = 4;
     $scope.min = 0;
     $scope.max = 8;
     $scope.painimage = "img/painlevel_4.svg";
+    $scope.painDescription = painDescriptionArray[4];
     $scope.myPain = function( vol ) {
       localStorage.beforePL = vol;
       console.log(localStorage.beforePL);
 
       $scope.volume = vol;
+      $scope.painDescription = painDescriptionArray[vol];
       $scope.painimage = "img/painlevel_" + $scope.volume  + ".svg";
 
     };
@@ -148,7 +154,21 @@ angular.module('starter.controllers', [])
     });
 
     $scope.touchSensorOn = function(){
-          $state.go('timer');
+      $timeout(function () {
+        $scope.cameraPoint = "img/point-yellow.svg";
+        $scope.cameraNote = "Near By !!";
+        $scope.cameraNoteColor = { "color" : "#7E4477"};
+      }, 2000);
+
+      $timeout(function () {
+        $scope.cameraPoint = "img/point-blue.svg";
+        $scope.cameraNote = "Touched !!";
+        $scope.cameraNoteColor = { "color" : "#65A1C8"};
+      }, 4000);
+
+      $timeout(function () {
+        $state.go('timer');
+      }, 6000);
       }
   })
 
@@ -159,7 +179,7 @@ angular.module('starter.controllers', [])
     $scope.onTimeout = function(){
       if($scope.counter == 0 ){
         $timeout.cancel(mytimeout);
-        $state.go('feedback');
+        // $state.go('feedback');
       }else{
         $scope.counter--;
       }
@@ -198,15 +218,20 @@ angular.module('starter.controllers', [])
     $scope.volume = 4;
     $scope.min = 0;
     $scope.max = 8;
+    $scope.baseline = "Baseline: " + localStorage.beforePL;
     $scope.painimage = "img/painlevel_4.svg";
+
+    $scope.painDescription = painDescriptionArray[4];
     $scope.myPain = function( vol ) {
       localStorage.beforePL = vol;
       console.log(localStorage.beforePL);
 
       $scope.volume = vol;
+      $scope.painDescription = painDescriptionArray[vol];
       $scope.painimage = "img/painlevel_" + $scope.volume  + ".svg";
 
     };
+
 
   })
 

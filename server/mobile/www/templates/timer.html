@@ -1,17 +1,35 @@
-<ion-view view-title="Timer">
+<ion-view view-title="Third Eye Point">
   <ion-nav-buttons side="left">
     <a class="button button-icon icon ion-chevron-left" href="#/treatmentlist" ></a>
   </ion-nav-buttons>
-  <ion-content class="padding">
+  <ion-nav-buttons side="right">
+    <a class="button button-icon icon ion-navicon" href="#/tab/treat" ></a>
+  </ion-nav-buttons>
 
-  <img class="timer" src="img/timer_circle.svg">
-
-    <b class=big_text>{{counter | formatTimer}}</b>
-    <div class="baseline_bar">
-      <img src="img/range_bg.svg">
-      <input class="range_line" type="range" name="volume" ng-model="data1.volume" step="1" min="0" max="8" value="4">
+  <ion-content class="bg_orange">
+    <div class="line-bar ">
+      <img class="line-bar" src="img/linebar/linebar_5.svg" alt="">
     </div>
-    <button class="button" ng-click="pause()">{{buttonText}}</button>
-    <button class="button" ng-click="next()">Next</button>
+    <div class="padding">
+      <h2>Timer</h2>
+      <img class="timer" src="img/timer_circle.svg">
+      <div class="timer_time">
+        <b class=big_text>{{counter | formatTimer}}</b>
+      </div>
+      <h2 class="">Vibration level</h2>
+      <div class="padding-top padding-button">
+        <div class=" baseline_bar">
+          <img src="img/vibration_bar.svg">
+          <input class="range_line" type="range" name="volume" ng-model="data1.volume" step="1" min="0" max="8" value="4">
+        </div>
+
+      </div>
+
+      <button class="button" ng-click="pause()">{{buttonText}}</button>
+      <button class="button" ng-click="next()">Next</button>
   </ion-content>
+
+    </div>
+
+
 </ion-view>
