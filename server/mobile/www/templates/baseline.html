@@ -1,19 +1,40 @@
-ㄎ<ion-view view-title="Baseline">
+<ion-view view-title="Baseline">
   <ion-nav-buttons side="left">
-    <a class="button button-icon icon ion-chevron-left my-left-icon" href="#/tab/treat" ></a>
+    <a class="button button-icon icon ion-chevron-left" href="#/tab/treat" ></a>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <a class="button button-icon icon ion-navicon" href="#/tab/treat" ></a>
   </ion-nav-buttons>
 
-  <ion-content class="padding">
-    <img  src="img/timeline/timeline-2.svg">
-
-      <img class="face" ng-src={{painimage}}>
-
-    <div class="baseline_bar">
-      <img ng-src="img/range_bg.svg">
-      <input class="range_line" type="range" ng-change="myPain(volume)" ng-model="volume" step="1" min="{{min}}" max="{{max}}" value="4">
+  <ion-content class="bg_orange">
+    <div class="line-bar ">
+      <img class="line-bar" src="img/linebar/linebar_2.svg" alt="">
     </div>
 
-    <a class="button button-block button-orange" href="#/treatmentlist" >Find Treatment</a>
+
+    <div class="padding">
+      <div class="gray_card">
+      <div class="symptom_card row">
+        <div class="col-33">
+          <img class="ss_img" ng-src="img/symptom/headache.svg">
+        </div>
+        <div class="col-66">
+          <h4 class="text-left">Headache</h4>
+          <p>Sensation of tightness or pressure across your forehead or on the sides and back of your head.</p>
+        </div>
+      </div>
+
+      <h2>how pain is it?</h2>
+      <img class="face" ng-src={{painimage}}>
+      <h5>{{painDescription}}</h5>
+      <div class="baseline_bar">
+        <img ng-src="img/pain_line.svg">
+        <input class="range_line" type="range" ng-change="myPain(volume)" ng-model="volume" step="1" min="{{min}}" max="{{max}}" value="4">
+      </div>
+
+      <a class="button button-block button-orange" href="#/treatmentlist" >Find Treatment</a>
+      </div>
+    </div>
 
 
 

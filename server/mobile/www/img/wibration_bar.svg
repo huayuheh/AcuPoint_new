@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="305px" height="21px" viewBox="0 0 305 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.8%" y="-62.5%" width="105.7%" height="275.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.831372549   0 0 0 0 0.839215686   0 0 0 0 0.874509804  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="0%" y1="45.7244873%" x2="100%" y2="45.7244873%" id="linearGradient-2">
+            <stop stop-color="#7E4477" offset="0%"></stop>
+            <stop stop-color="#F3807B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="35.0952148%" x2="100%" y2="35.0952148%" id="linearGradient-3">
+            <stop stop-color="#65A1C8" offset="0%"></stop>
+            <stop stop-color="#6A68A8" offset="51.7179528%"></stop>
+            <stop stop-color="#7E4477" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-4" cx="4" cy="4" r="4"></circle>
+        <circle id="path-5" cx="33.875" cy="4" r="4"></circle>
+        <circle id="path-6" cx="183.25" cy="4" r="4"></circle>
+        <circle id="path-7" cx="213.125" cy="4" r="4"></circle>
+        <circle id="path-8" cx="63.75" cy="4" r="4"></circle>
+        <circle id="path-9" cx="93.625" cy="4" r="4"></circle>
+        <circle id="path-10" cx="123.5" cy="4" r="4"></circle>
+        <circle id="path-11" cx="153.375" cy="4" r="4"></circle>
+        <circle id="path-12" cx="243" cy="4" r="4"></circle>
+    </defs>
+    <g id="version4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.9-treatment" transform="translate(-39.000000, -507.000000)">
+            <g id="Group-5" transform="translate(30.000000, 505.000000)">
+                <g id="Group" filter="url(#filter-1)" transform="translate(34.000000, 9.000000)">
+                    <polyline id="Line" stroke="url(#linearGradient-2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="124.590165 3.99735435 243.411138 3.99735435 243.60786 3.99735435 243.60786 3.52941176 243.411138 3.52941176 124.590165 3.52941176 124.393443 3.52941176 124.393443 3.99735435"></polyline>
+                    <polyline id="Line-Copy-9" stroke="url(#linearGradient-3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="4.98360763 3.99735435 123.80458 3.99735435 124.001303 3.99735435 124.001303 3.52941176 123.80458 3.52941176 4.98360763 3.52941176 4.78688525 3.52941176 4.78688525 3.99735435"></polyline>
+                    <g id="Oval-2">
+                        <use fill="#FEFBF7" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <circle stroke="#65A1C8" stroke-width="2" cx="4" cy="4" r="3"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-5">
+                        <use fill="#FEFBF7" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        <circle stroke="#6887BA" stroke-width="2" cx="33.875" cy="4" r="3"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-4">
+                        <use fill="#FEFBF7" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        <circle stroke="#B66178" stroke-width="2" cx="183.25" cy="4" r="3"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-6">
+                        <use fill="#FEFBF7" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        <circle stroke="#D5717A" stroke-width="2" cx="213.125" cy="4" r="3"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-3">
+                        <use fill="#FEFBF7" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        <circle stroke="#696BAA" stroke-width="2" cx="63.75" cy="4" r="3"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-7">
+                        <use fill="#FEFBF7" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        <circle stroke="#745791" stroke-width="2" cx="93.625" cy="4" r="3"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-2">
+                        <use fill="#FEFBF7" fill-rule="evenodd" xlink:href="#path-10"></use>
+                        <circle stroke="#7E4477" stroke-width="2" cx="123.5" cy="4" r="3"></circle>
+                    </g>
+                    <g id="Oval-2-Copy-8">
+                        <use fill="#FEFBF7" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        <circle stroke="#995278" stroke-width="2" cx="153.375" cy="4" r="3"></circle>
+                    </g>
+                    <g id="Oval-2-Copy">
+                        <use fill="#FEFBF7" fill-rule="evenodd" xlink:href="#path-12"></use>
+                        <circle stroke="#F3807B" stroke-width="2" cx="243" cy="4" r="3"></circle>
+                    </g>
+                </g>
+                <g id="Group-2" transform="translate(291.000000, 0.000000)">
+                    <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+                    <polyline id="Path-2" stroke="#F3807B" stroke-linecap="round" stroke-linejoin="round" points="22 2 18 6 22 10 18 14 22 18 18.0049177 21.9950823"></polyline>
+                    <polyline id="Path-2-Copy" stroke="#F3807B" stroke-linecap="round" stroke-linejoin="round" points="14 2 10 6 14 10 10 14 14 18 10.0049177 21.9950823"></polyline>
+                    <polyline id="Path-2-Copy-2" stroke="#F3807B" stroke-linecap="round" stroke-linejoin="round" points="6 2 2 6 6 10 2 14 6 18 2.00491766 21.9950823"></polyline>
+                </g>
+                <g id="Group-2">
+                    <rect id="Rectangle-3" x="0" y="0" width="24" height="24"></rect>
+                    <polyline id="Path-2-Copy" stroke="#65A1C8" stroke-linecap="round" stroke-linejoin="round" points="14 2 10 6 14 10 10 14 14 18 10.0049177 21.9950823"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

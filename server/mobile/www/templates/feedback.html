@@ -1,28 +1,41 @@
-<ion-view view-title="After Treatment">
+<ion-view view-title="Feedback">
   <ion-nav-buttons side="left">
-    <a class="button button-icon icon ion-chevron-left" href="#/timer" ></a>
+    <a class="button button-icon icon ion-chevron-left" href="#/treatmentlist" ></a>
   </ion-nav-buttons>
-  <ion-content class="padding">
-    <div class="card card-clean">
-      <div class="card-title">Baseline</div>
-      <div class="card-body row">
-        <div class="col">
-          <img class="img64" src="img/painlevel_4.svg" alt="">
+  <ion-nav-buttons side="right">
+    <a class="button button-icon icon ion-navicon" href="#/tab/treat" ></a>
+  </ion-nav-buttons>
+
+  <ion-content class="bg_orange">
+    <div class="line-bar ">
+      <img class="line-bar" src="img/linebar/linebar_6.svg" alt="">
+    </div>
+    <div class="padding">
+      <div class="gray_card">
+        <div class="symptom_card row">
+          <div class="col-33">
+            <img class="ss_img" ng-src="img/symptom/headache.svg">
+          </div>
+          <div class="col-66">
+            <span class="baseline_text">{{baseline}}</span>
+            <h4 class="text-left">Headache</h4>
+
+            <p>Sensation of tightness or pressure across your forehead or on the sides and back of your head.</p>
+          </div>
         </div>
-        <div class="col">
-          <p>Pain Level</p>
-          <b>4</b>
+
+        <h2>How do you feel now?</h2>
+
+        <img class="face" ng-src={{painimage}}>
+        <h5>{{painDescription}}</h5>
+        <div class="baseline_bar">
+          <img ng-src="img/pain_line.svg">
+          <input class="range_line" type="range" ng-change="myPain(volume)" ng-model="volume" step="1" min="{{min}}" max="{{max}}" value="4">
         </div>
+
+        <a class="button button-block button-orange" href="#/ending" >Submit</a>
       </div>
     </div>
-    <img class="face" ng-src={{painimage}}>
-
-    <div class="baseline_bar">
-      <img ng-src="img/range_bg.svg">
-      <input class="range_line" type="range" ng-change="myPain(volume)" ng-model="volume" step="1" min="{{min}}" max="{{max}}" value="4">
-    </div>
-
-    <a class="button button-block button-orange" href="#/ending" >Finish</a>
 
   </ion-content>
 </ion-view>

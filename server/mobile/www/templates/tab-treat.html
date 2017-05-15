@@ -1,7 +1,30 @@
 <ion-view view-title="Treatment">
-  <ion-content class="padding">
-    <img  src="img/timeline/timeline-1.svg">
-    <h2>Click The Pain Area</h2>
-    <img id="body-img" src="img/body_whole.svg">
-    <button class="click_area" id="area_head" ng-click="showTreatment()"></button>
+  <ion-nav-buttons side="right">
+    <a class="button button-icon icon ion-navicon" href="#/tab/treat" ></a>
+
+
+  </ion-nav-buttons>
+  <ion-content class="bg_orange">
+    <div class="line-bar">
+      <img class="line-bar" src="img/linebar/linebar_1.svg" alt="">
+    </div>
+
+
+    <div class="padding">
+      <div class="icon_left_corner">
+        <img src="img/icon/body_rotation.svg" alt="">
+      </div>
+      <div class="icon_right_corner">
+        <a href=""><img src="img/icon/body_list.svg" alt=""></a>
+      </div>
+      <h2>Where does it hurt?</h2>
+      <h3>Tap The Pain Point</h3>
+      <img id="body-img" src="img/woman-front.svg">
+      <button class="click_area" id="area_head" ng-click="showTreatment()"></button>
+
+
+
+    </div>
+
+  </ion-content>
 </ion-view>

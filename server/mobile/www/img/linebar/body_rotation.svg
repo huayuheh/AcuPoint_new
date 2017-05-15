@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="48" rx="8"></rect>
+        <filter x="-14.6%" y="-10.4%" width="129.2%" height="129.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.831372549   0 0 0 0 0.839215686   0 0 0 0 0.874509804  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="version4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1-treatment" transform="translate(-12.000000, -118.000000)">
+            <g id="Group-6" transform="translate(16.000000, 120.000000)">
+                <g id="Rectangle-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="rotation">
+                    <rect id="Rectangle-5" x="0" y="0" width="48" height="48"></rect>
+                    <g id="Group-3" transform="translate(8.000000, 16.000000)" stroke="#BFC2D0" stroke-width="2" stroke-linecap="round">
+                        <path d="M28.6315789,4.46671851 C27.0164912,1.88369386 21.9865573,0 16.0316864,0 C9.9966399,0 4.91160445,1.934759 3.36842105,4.57142857" id="Oval-3"></path>
+                        <polyline id="Path-11" stroke-linejoin="round" transform="translate(28.429758, 3.584305) rotate(-70.000000) translate(-28.429758, -3.584305) " points="26.1841438 2.13814372 27.3476758 5.03046657 30.6753719 3.93463495"></polyline>
+                        <path d="M1.37937274,9.96036983 C3.31747801,11.2931336 7.50424406,15.2396759 16.4992437,15.2396759 C25.4942434,15.2396759 29.8433421,11.2667856 31.6951622,9.90634256" id="Oval-3"></path>
+                        <polyline id="Path-11" stroke-linejoin="round" points="5.92323174 9.51141225 0 8.38095238 0.000875888839 13.4792451"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

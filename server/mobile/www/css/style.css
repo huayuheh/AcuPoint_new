@@ -4,15 +4,16 @@ body{
   letter-spacing: 1px;
 }
 .padding{
-  padding: 0 32px;
+  padding: 0px 16px;
 }
 .padding-top{
   padding-top: 16px;
 }
-overflow-hide{
-  overflow: hidden;
-  overflow-y: hidden;
+.padding-button{
+  padding-button: 16px;
 }
+
+
 
 img{
   width: 100%;
@@ -29,19 +30,50 @@ img.img176{
 
 h2{
   font-size: 17px;
-  font-weight: 400;
-  color:#65A1C8;
+  font-weight: 500;
+  color:#6A7191;
   text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 16px 16px 0;
+
 }
 h3{
   font-size: 13px;
-  font-weight: 600;
-  margin-top: 8px;
-  color:#65A1C8;
+  font-weight: 400;
+  margin: 0;
+  padding: 8px 8px 0;
+  color:#3F4972;
   text-align: center;
+  line-height: 16px;
 }
+h4{
+  font-size: 13px;
+  font-weight: 400;
+  padding: 16px 8px 8px;
+  margin: 0;
+  color:#3F4972;
+  text-align: left;
+  line-height: 16px;
+}
+h5{
+  font-size: 10px;
+  font-weight: 400;
+  padding: 8px;
+  margin: 0;
+  color:#3F4972;
+  text-align: center;
+  line-height: 16px;
+}
+
+
+
 p{
-  margin: 0 0 8px;
+  margin: 0 8px 8px;
+  font-size: 12px;
+  font-weight: 200;
+  text-align: left;
+  color:#6A7191;
 }
 
 b{
@@ -148,28 +180,94 @@ a{
 
 /*bottom-item*/
 .bottom-item{
-  position: relative;
+  positionicon_corner : relative;
   bottom: 45px;
 }
+/*container*/
+
+
+.bg_orange{
+  background-color: #FEFBF7;
+}
+
+
+
+
+
+/*treatment page*/
+
+.icon_left_corner{
+  padding-top: 8px;
+  float: left;
+
+}
+.icon_right_corner{
+  padding-top: 8px;
+  float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*bar*/
 .bar{
-  background-image:linear-gradient(0deg, #fff, #fff 50%, transparent 50%);
+  color: #F4F4F6;
+  height: 48px;
 }
 .bar.bar-stable{
-  border-color: white;
-  background-color: white;
-  background-image: linear-gradient(0deg, #F9B763,#F9B763 0%, transparent 0%);
-  color: #F9B763;
+  color: #F4F4F6;
+  background-color: #F3807B;
+  background-image: linear-gradient(0deg, #F9B763,#F3807B 50%, transparent 50%);
 }
 .bar.bar-stable .title{
-  color: #F9B763;
+  color: #F4F4F6;
   font-weight: 800;
-  font-size: 23px;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 16px;
+
 }
 .bar-stable .button:hover{
-  color: #F9B763;
+  color: #F4F4F6;
 }
 
 .my-left-icon{
@@ -188,10 +286,21 @@ a{
   padding-top: 4px;
   font-size: 17px;
   font-weight: 600;
-  color: #F9B763 ;
+  color: #F4F4F6 ;
   background-color: white;
   line-height: 32px;
 }
+.line-bar{
+  padding-top: 4px;
+  background-image: linear-gradient(180deg, #F3807B,#F3807B 50%, transparent 50%);
+  width: 100%;
+
+}
+.line-bar img{
+  padding: 0px 12px;
+}
+
+
 
 /*tabs-circlebox*/
 .tabs-circlebox{
@@ -212,7 +321,7 @@ a{
 
 /*Button*/
 .button{
-  border-radius: 24px;
+  border-radius: 8px;
   border-width: 2px;
   font-weight: 600;
   height: 48px;
@@ -227,9 +336,23 @@ a{
   color: #F9B763;
 }
 .button-orange{
-  background-image: linear-gradient(0deg, #F58F75,#F9B763 100%, transparent 100%);
-  border: 0px ;
-  color: #FFF;
+   /*background-image: linear-gradient(0deg, #F58F75,#F9B763 100%, transparent 100%);*/
+   border-radius: 0 0 4px 4px;
+   border: 2px solid #fff;
+   color: #F9B763;
+   background-color: white;
+   padding-top: 0px;
+   box-shadow: 0 -4px 8px #D4D6DF;
+ }
+.button-white{
+  /*background-image: linear-gradient(0deg, #F58F75,#F9B763 100%, transparent 100%);*/
+  border-radius: 0 0 4px 4px;
+  border-top: 0px solid #fff;
+  color: #F9B763;
+  background-color: white;
+  padding-top: 0px;
+  box-shadow: 0 0px 0px #fff;
+  width: 100%;
 }
 
 .button-small {
@@ -342,13 +465,22 @@ ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-col
 
 
 /*Treatment Page*/
+
+#body-img{
+  display: block;
+  margin: 16px auto;
+  height: 415px;
+}
+
+
+
 #area_head{
-  background-color: rgba(100,100,100,0.0);
+  background-color: rgba(100,100,100,0);
   position: absolute;
-  width: 25%;
-  height: 18%;
-  top: 5%;
-  left: 11%;
+  width: 20%;
+  height: 15%;
+  top: 22%;
+  left: 40%;
   border: 0;
   outline:none;
   cursor: pointer;
@@ -373,9 +505,25 @@ ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-col
 }
 
 /*baseline*/
+.symptom_card{
+  border-radius: 4px 4px 0 0 ;
+  background-color: white;
+
+  box-shadow: 0 4px 8px #D4D6DF;
+}
+.ss_img{
+  padding: 8px;
+}
+.gray_card{
+  background-color: #EAEBEF;
+  box-shadow: 0 4px 8px #BFC2D0;
+}
+
+
+
 .face{
-  width: 128px;
-  margin: 56px auto ;
+  width: 64px;
+  margin: 24px auto 8px;
   display: block;
 }
 
@@ -387,18 +535,17 @@ ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-col
 .baseline_bar{
   position: relative;
   width: 100%;
-  margin: 0 0 32px ;
-  padding: 0 8px;
+  margin: 0px 0 24px ;
 }
 .baseline_bar img{
   width: 100%;
-  padding: 6px 8px;
+  padding: 0px 8px;
 }
 
 .baseline_bar input {
 
- margin-top: 16px;
-  width:100%;
+  margin: 16px;
+  width:80%;
 
 }
 .range_line{
@@ -408,10 +555,42 @@ ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-col
 }
 
 /*Treatment list*/
-.treat_img{
-  width: 128px;
+.treatment_card{
+
+  border-radius: 4px;
+  background-color: white;
+  margin: 0px 16px 16px;
+  box-shadow: 0 4px 8px #D4D6DF;
+}
+.treatment_card_header{
+  padding: 4px 16px 12px;
+
 
 }
+.treatment_card_image {
+  border-bottom: 1px solid #EAEBEF;
+  border-top: 1px solid #EAEBEF;
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: 0 16px;
+  padding: 16px 0;
+}
+.treatment_card_image img{
+  width: 192px;
+}
+.treatment_card_footer{
+  margin: 0;
+
+}
+.treatment_card_text{
+  position: absolute;
+  bottom: 12px;
+  right: -4px;
+}
+
+
+
 .acu_spot{
   position: absolute;
   width:16px;
@@ -441,18 +620,29 @@ ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-col
   top:50%;
   left: 54%;
 }
+
+
 /*camera*/
+.camera-bg{
+  background-image: url("../img/camera_bg.jpg");
+  height: calc(100vh - 96px);
+  width: 100%;
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
 .touch_point{
   position: absolute;
-  top:30%;
+  top:40%;
   left:47%;
   width: 48px;
   /*box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 2px 4px rgba(42, 53, 98, 0.5);*/
 }
 .touch_note{
   position: absolute;
-  top:20%;
-  left: calc(50% - 72px);;
+  top:30%;
+  left: calc(50% - 72px);
   background-color: white;
   padding: 8px;
   width: 144px;
@@ -477,8 +667,28 @@ ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-col
 }
 /*timer*/
 .timer{
-  padding: 56px;
+  padding: 24px 56px;
 }
+.timer_time{
+  position: absolute;
+  top:40%;
+  width: calc(100% - 32px);
+}
+.timer_time b{
+  display: block;
+  text-align: center;
+}
+/*feedback*/
+.baseline_text{
+  float: right;
+  margin: 16px 16px 0;
+  font-size: 13px;
+  line-height: 16px;
+  color: #F3807B;
+}
+
+
+
 
 
 /*Customized icons*/
@@ -552,8 +762,8 @@ ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-col
 /*range*/
 input[type=range] {
   -webkit-appearance: none;
-  width: 100%;
-  margin: 14px 0;
+  width: 80%;
+  margin: 14px 32px 14px 34px;
 }
 input[type=range]:focus {
   outline: none;
@@ -570,8 +780,8 @@ input[type=range]::-webkit-slider-runnable-track {
 input[type=range]::-webkit-slider-thumb {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 2px 4px rgba(42, 53, 98, 0.5);
   border: 0.9px solid rgba(249, 183, 99, 0.5);
-  height: 32px;
-  width: 32px;
+  height: 24px;
+  width: 24px;
   border-radius: 16px;
   background: #f9b763;
   cursor: pointer;
@@ -593,8 +803,8 @@ input[type=range]::-moz-range-track {
 input[type=range]::-moz-range-thumb {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0), 0px 2px 4px rgba(42, 53, 98, 0.5);
   border: 0.9px solid rgba(249, 183, 99, 0.5);
-  height: 32px;
-  width: 32px;
+  height: 24px;
+  width: 24px;
   border-radius: 16px;
   background: #f9b763;
   cursor: pointer;
