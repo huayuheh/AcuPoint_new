@@ -21,7 +21,7 @@ touch.setActiveLow( true );
 
 
 
-process.env.NODE_URL='10.0.1.30';
+process.env.NODE_URL='hanazero.local';
 
 require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
 
