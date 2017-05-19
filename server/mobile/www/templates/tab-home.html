@@ -1,51 +1,48 @@
-
-
-
-
-
-<ion-view view-title="AcuPoint">
-  <ion-nav-buttons side="left">
-    <a class="button button-icon icon ion-ios-pen-blue" href="#/device" ></a>
-
-  </ion-nav-buttons>
-
-  <ion-content class="padding">
-    <h2>This week</h2>
-
-    <div class="summery text_center">
-      <div class="left_box">
-        <div class="side_box">
-          <p >Symptoms</p>
-          <b class=big_text>0</b>
-        </div>
-        <div class="side_box">
-          <p >Treats</p>
-          <b class=big_text>0</b>
-        </div>
-      </div>
-      <div class="center_box">
-        <div class="side_box">
-          <p >Pain Rate</p>
-          <img class="face" src="img/face_4.jpg">
-        </div>
-      </div>
-      <div class="right_box">
-        <div class="side_box">
-          <p >Points</p>
-          <b class=big_text>0</b>
-        </div>
-        <div class="side_box">
-          <p >Time</p>
-          <b class=big_text>0</b>
-        </div>
-      </div>
-
+<ion-view view-title="Dashboard">
+  <ion-nav-title class="header_big">
+    <div class="header_right">
+      <a class="button button-icon icon ion-navicon" href="#/tab/treat" ></a>
     </div>
+    Dashboard
+    <div class="dashboard_head">
+      <div class="row">
+        <div class="col">
+          <b class=big_text>1</b>
+          <h5>Symptoms</h5>
+        </div>
+        <div class="col">
+          <b class=big_text>1</b>
+          <h5>Treatment</h5>
+        </div>
+        <div class="col">
+          <b class=big_text>2</b>
+          <h5>Time</h5>
+        </div>
+      </div>
+    </div>
+  </ion-nav-title>
 
 
-
-    <a href="#/sign-in">profile</a>
-
+  <ion-content class="padding bg_orange">
+    <h2>Reminder</h2>
+    <h2>Reminder</h2>
+    <h2>Reminder</h2>
+    <div class="dashboard_card">
+      <div class="row">
+        <div class="col-25 dashboard_card_right" >
+          <img class="img64" src="/img/painlevel_2.svg" alt="">
+        </div>
+        <div class="col-75">
+          <span class="baseline_text">Baseline: 4</span>
+          <h4>Headache</h4>
+          <p>Last treatment: Third eye point</p>
+          <p>Last time: 2017.04.05</p>
+          <p>Cycle: 1/10</p>
+        </div>
+      </div>
+    </div>
+    <h2 class="">Recently treatments</h2>
+    <a class="small_card" href="#/camera"><h4>Third Eye Point <span>for Headache</span></h4></a>
 
   </ion-content>
 </ion-view>

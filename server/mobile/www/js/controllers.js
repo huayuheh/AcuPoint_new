@@ -37,8 +37,8 @@ angular.module('starter.controllers', [])
 
     $timeout(function () {
       $scope.connectionNote = "Turn on AcuPoint Pen's power for connecting to your phone";
-      $scope.connectionImg = "img/pen-red.svg"
-      $scope.connectionStatus = "Power Off"
+      $scope.connectionImg = "img/pen-red.svg";
+      $scope.connectionStatus = "Power Off";
     }, 6000);
 
     socket.on('event:button', function() {
@@ -61,7 +61,9 @@ angular.module('starter.controllers', [])
   })
 
 
-  .controller('HomeCtrl', function($scope) {})
+  .controller('HomeCtrl', function() {
+    // document.getElementsByClassName('bar').style.height = "128px";
+  })
 
   .controller('DeviceCtrl', function($scope) {})
 
@@ -71,7 +73,7 @@ angular.module('starter.controllers', [])
 
   .controller('TreatCtrl', function($scope, $ionicActionSheet, $timeout, $window) {
 
-    $scope.showTreatment = function() {
+    $scope.showTreatment = function($scope, $element) {
       document.getElementById('body-img').src = "img/woman-front-head.svg";
 
       // Show the action sheet
@@ -202,6 +204,20 @@ angular.module('starter.controllers', [])
     $scope.next = function(){
       $state.go('feedback');
     }
+
+    $scope.volume = 4;
+    $scope.min = 0;
+    $scope.max = 8;
+    $scope.myVibration = function( vol ) {
+
+      console.log(vol);
+
+      $scope.volume = vol;
+
+
+    };
+
+
 
   })
   .filter('formatTimer', function() {

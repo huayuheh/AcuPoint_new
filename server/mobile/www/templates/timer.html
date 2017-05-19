@@ -20,7 +20,9 @@
       <div class="padding-top padding-button">
         <div class=" baseline_bar">
           <img src="img/vibration_bar.svg">
-          <input class="range_line" type="range" name="volume" ng-model="data1.volume" step="1" min="0" max="8" value="4">
+
+          <input class="range_line" type="range" ng-change="myVibration(volume)" ng-model="volume" step="1" min="{{min}}" max="{{max}}" value="4">
+
         </div>
 
       </div>
