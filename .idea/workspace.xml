@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9b2cbed-3075-45ca-919b-95559965da64" name="New changelist" comment="Style it">
+    <list default="true" id="c9b2cbed-3075-45ca-919b-95559965da64" name="New changelist" comment="modify">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/css/style.css" afterPath="$PROJECT_DIR$/server/mobile/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/img/logo_v2.svg" afterPath="$PROJECT_DIR$/server/mobile/www/img/logo_v2.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/img/pen-red.svg" afterPath="$PROJECT_DIR$/server/mobile/www/img/pen-red.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/img/timeline/timeline-4.svg" afterPath="$PROJECT_DIR$/server/mobile/www/img/timeline/timeline-4.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/index.html" afterPath="$PROJECT_DIR$/server/mobile/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/js/controllers.js" afterPath="$PROJECT_DIR$/server/mobile/www/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/js/services.js" afterPath="$PROJECT_DIR$/server/mobile/www/js/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/lib/ionic/css/ionic.css" afterPath="$PROJECT_DIR$/server/mobile/www/lib/ionic/css/ionic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/camera.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/camera.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/connection.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/connection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/onboarding.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/onboarding.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/sign-in.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/sign-in.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/sign-up.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/sign-up.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/timer.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/timer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/mobile/www/templates/treatmentlist.html" afterPath="$PROJECT_DIR$/server/mobile/www/templates/treatmentlist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/server.js" afterPath="$PROJECT_DIR$/server/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/server/mobile/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="9395">
-              <caret line="640" column="1" lean-forward="true" selection-start-line="640" selection-start-column="1" selection-end-line="640" selection-end-column="1" />
+              <caret line="640" column="1" lean-forward="false" selection-start-line="640" selection-start-column="1" selection-end-line="640" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -93,8 +77,21 @@
         <entry file="file://$PROJECT_DIR$/server/mobile/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="222" column="37" lean-forward="true" selection-start-line="221" selection-start-column="4" selection-end-line="222" selection-end-column="37" />
-              <folding />
+              <caret line="237" column="4" lean-forward="true" selection-start-line="237" selection-start-column="4" selection-end-line="238" selection-end-column="37" />
+              <folding>
+                <marker date="1495421428000" expanded="true" signature="6272:6277" ph="{...}" />
+                <marker date="1495421428000" expanded="true" signature="6315:6529" ph="{...}" />
+                <marker date="1495421428000" expanded="true" signature="6348:6524" ph="{...}" />
+                <marker date="1495421428000" expanded="true" signature="6579:7086" ph="{...}" />
+                <marker date="1495421428000" expanded="true" signature="6841:7079" ph="{...}" />
+                <marker date="1495421428000" expanded="true" signature="7134:7141" ph="{...}" />
+                <marker date="1495421428000" expanded="true" signature="7399:7848" ph="{...}" />
+                <marker date="1495421428000" expanded="true" signature="7405:7741" ph="//..." />
+                <marker date="1495421428000" expanded="true" signature="7810:7843" ph="{...}" />
+                <marker date="1495421428000" expanded="true" signature="7921:7976" ph="{...}" />
+                <marker date="1495421428000" expanded="true" signature="8025:8087" ph="{...}" />
+                <marker date="1495421428000" expanded="true" signature="8049:8082" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/server/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-374">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -500,7 +497,7 @@
       <workItem from="1494219292316" duration="9860000" />
       <workItem from="1494818955965" duration="18506000" />
       <workItem from="1495236817490" duration="832000" />
-      <workItem from="1495315289611" duration="9023000" />
+      <workItem from="1495315289611" duration="9118000" />
     </task>
     <task id="LOCAL-00001" summary="New changelist">
       <changelist id="c9b2cbed-3075-45ca-919b-95559965da64" name="New changelist" comment="" />
@@ -601,12 +598,19 @@
       <option name="project" value="LOCAL" />
       <updated>1494881361168</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="modify">
+      <created>1495421420617</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1495421420617</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99497000" />
+    <option name="totallyTimeSpent" value="99592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,7 +697,8 @@
     <MESSAGE value="improve the mobile page" />
     <MESSAGE value="sever" />
     <MESSAGE value="Style it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Style it" />
+    <MESSAGE value="modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -983,7 +988,7 @@
     <entry file="file://$PROJECT_DIR$/server/mobile/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9395">
-          <caret line="640" column="1" lean-forward="true" selection-start-line="640" selection-start-column="1" selection-end-line="640" selection-end-column="1" />
+          <caret line="640" column="1" lean-forward="false" selection-start-line="640" selection-start-column="1" selection-end-line="640" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1047,15 +1052,28 @@
     <entry file="file://$PROJECT_DIR$/server/mobile/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="222" column="37" lean-forward="true" selection-start-line="221" selection-start-column="4" selection-end-line="222" selection-end-column="37" />
-          <folding />
+          <caret line="237" column="4" lean-forward="true" selection-start-line="237" selection-start-column="4" selection-end-line="238" selection-end-column="37" />
+          <folding>
+            <marker date="1495421428000" expanded="true" signature="6272:6277" ph="{...}" />
+            <marker date="1495421428000" expanded="true" signature="6315:6529" ph="{...}" />
+            <marker date="1495421428000" expanded="true" signature="6348:6524" ph="{...}" />
+            <marker date="1495421428000" expanded="true" signature="6579:7086" ph="{...}" />
+            <marker date="1495421428000" expanded="true" signature="6841:7079" ph="{...}" />
+            <marker date="1495421428000" expanded="true" signature="7134:7141" ph="{...}" />
+            <marker date="1495421428000" expanded="true" signature="7399:7848" ph="{...}" />
+            <marker date="1495421428000" expanded="true" signature="7405:7741" ph="//..." />
+            <marker date="1495421428000" expanded="true" signature="7810:7843" ph="{...}" />
+            <marker date="1495421428000" expanded="true" signature="7921:7976" ph="{...}" />
+            <marker date="1495421428000" expanded="true" signature="8025:8087" ph="{...}" />
+            <marker date="1495421428000" expanded="true" signature="8049:8082" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-374">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
