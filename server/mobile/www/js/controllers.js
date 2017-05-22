@@ -1,5 +1,5 @@
 localStorage.beforePL= 4;
-localStorage.AfterPL= 4;
+localStorage.afterPL= 4;
 var painDescriptionArray = ["0-No Pain", "1-Very Mind", "2-Discomforting","3-Tolerable","4-Distressing","5-Very Distressing", "6-Intense Pain","7-Very Intense Pain", "8-Horrible Pain"];
 
 
@@ -122,10 +122,17 @@ angular.module('starter.controllers', [])
 
   })
 
-  .controller('TreatmentlistCtrl', function($scope) {
+  .controller('TreatmentlistCtrl', function($scope, Records) {
+    $scope.records = Records.all();
+    $scope.remove = function(record) {
+      Records.remove(record);
+    };
   })
 
-  .controller('CameraCtrl', function($scope, $timeout, $state) {
+
+  .controller('CameraCtrl', function($scope, $timeout, $state, $stateParams, Records) {
+    $scope.record = Records.get($stateParams.recordId);
+
     $scope.cameraPoint = "img/point-red.svg";
     $scope.cameraNote = "Untouched !!";
     $scope.cameraNoteColor = { "color" : "#F3807B"};
@@ -202,6 +209,15 @@ angular.module('starter.controllers', [])
     $scope.next = function(){
       $state.go('feedback');
     }
+    $scope.volume = 4;
+    $scope.min = 0;
+    $scope.max = 8;
+    $scope.myVibration = function( vol ) {
+
+      console.log(vol);
+      socket.emit('event:vibration', vol );
+
+    };
 
   })
   .filter('formatTimer', function() {
@@ -223,8 +239,8 @@ angular.module('starter.controllers', [])
 
     $scope.painDescription = painDescriptionArray[4];
     $scope.myPain = function( vol ) {
-      localStorage.beforePL = vol;
-      console.log(localStorage.beforePL);
+      localStorage.afterPL = vol;
+      console.log(localStorage.afterPL);
 
       $scope.volume = vol;
       $scope.painDescription = painDescriptionArray[vol];

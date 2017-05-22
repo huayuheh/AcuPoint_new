@@ -13,14 +13,14 @@
 
 
 
-      <div class="treatment_card">
+      <div class="treatment_card" ng-repeat="record in records">
       <div class="treatment_card_header">
-        <h3>Third eye point GV24.5</h3>
+        <h3>{{record.name}}</h3>
       </div>
 
       <div class="treatment_card_image">
-        <img class="treat_img" src="img/woman-face.svg">
-        <h5 class="treatment_card_text">2 mins</h5>
+        <img class="treat_img" ng-src="{{record.face}}">
+        <h5 class="treatment_card_text">{{record.time}} mins</h5>
       </div>
 
       <div class="treatment_card_footer">

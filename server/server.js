@@ -21,7 +21,7 @@ touch.setActiveLow( true );
 
 
 
-process.env.NODE_URL='10.0.1.30';
+process.env.NODE_URL='hanazero.local';
 
 require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
 
@@ -80,7 +80,9 @@ require('mahrio').runServer( process.env, __dirname ).then( function( server ) {
         });
 
 
-        //socket.on('myCustomMessage', function( val ){ console.log( val ); });
+        socket.on('event:vibration', function( val ){
+            console.log( val );
+        });
 
     });
 

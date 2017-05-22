@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>pause</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.3%" y="-10.4%" width="108.6%" height="129.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.831372549   0 0 0 0 0.839215686   0 0 0 0 0.874509804  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="version4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.9-treatment" transform="translate(-77.000000, -597.000000)" stroke="#F9B763" stroke-width="2" fill="#FFFFFF">
+            <g id="Group-4" filter="url(#filter-1)" transform="translate(16.000000, 592.000000)">
+                <path d="M98,9.33333333 L98,38.6666667 C98,39.0277796 97.8680569,39.3402765 97.6041667,39.6041667 C97.3402765,39.8680569 97.0277796,40 96.6666667,40 L86,40 C85.6388871,40 85.3263902,39.8680569 85.0625,39.6041667 C84.7986098,39.3402765 84.6666667,39.0277796 84.6666667,38.6666667 L84.6666667,9.33333333 C84.6666667,8.97222042 84.7986098,8.65972354 85.0625,8.39583333 C85.3263902,8.13194313 85.6388871,8 86,8 L96.6666667,8 C97.0277796,8 97.3402765,8.13194313 97.6041667,8.39583333 C97.8680569,8.65972354 98,8.97222042 98,9.33333333 Z M79.3333333,9.33333333 L79.3333333,38.6666667 C79.3333333,39.0277796 79.2013902,39.3402765 78.9375,39.6041667 C78.6736098,39.8680569 78.3611129,40 78,40 L67.3333333,40 C66.9722204,40 66.6597235,39.8680569 66.3958333,39.6041667 C66.1319431,39.3402765 66,39.0277796 66,38.6666667 L66,9.33333333 C66,8.97222042 66.1319431,8.65972354 66.3958333,8.39583333 C66.6597235,8.13194313 66.9722204,8 67.3333333,8 L78,8 C78.3611129,8 78.6736098,8.13194313 78.9375,8.39583333 C79.2013902,8.65972354 79.3333333,8.97222042 79.3333333,9.33333333 Z" id="pause"></path>
+            </g>
+        </g>
+    </g>
+</svg>
